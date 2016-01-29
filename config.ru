@@ -1,5 +1,10 @@
 Bundler.require
 
+migration = ActiveRecord::Migration.new
+migration.drop_table :places,   if_exists:true
+migration.drop_table :trucks,   if_exists:true
+migration.drop_table :patterns, if_exists:true
+
 Engine.migrate
 
 places = YAML.load_file(ENV['PLACE_CONFIG']).map do |city,city_config|
