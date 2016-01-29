@@ -1,6 +1,6 @@
 Bundler.require
 
-Geocoder.configure api_key:ENV['GOOGLE_GEOCODER_API_KEY']
+Geocoder.configure api_key:ENV['GOOGLE_GEOCODER_API_KEY'], use_https:true
 
 migration = ActiveRecord::Migration.new
 [:places, :trucks, :patterns].each do |table|
