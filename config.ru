@@ -1,5 +1,7 @@
 Bundler.require
 
+Geocoder.configure api_key:ENV['GOOGLE_GEOCODER_API_KEY']
+
 migration = ActiveRecord::Migration.new
 [:places, :trucks, :patterns].each do |table|
   begin
