@@ -1,0 +1,1619 @@
+--- # Boston Neighborhoods
+Boston:
+  Allston-Brighton:
+    1550 Soldiers Field Rd:
+      type      : Address
+      latitude  : 42.359921
+      longitude : -71.149558
+      number    : 1550
+      street    : Soldiers Field
+      patterns  :
+        - (?i-mx:1550 Soldier'?s'? Field)
+    Commonwealth Ave & St Marys St:
+      type      : Intersection
+      latitude  : 42.349696
+      longitude : -71.106702
+      main      : Commonwealth
+      cross     : St Marys
+      patterns  :
+        - (?i-mx:Mary's)
+    Cleveland Circle:
+      type      : Landmark
+      latitude  : 42.33598
+      longitude : -71.15155
+    Boston University Bridge:
+      type      : Landmark
+      latitude  : 42.350969
+      longitude : -71.11272099999999
+      patterns  :
+        - (?i-mx:BU Bridge)
+    Boston University West:
+      type      : Landmark
+      latitude  : 42.350933
+      longitude : -71.112689
+      patterns  :
+        - (?i-mx:B\.?U\.? West)
+        - (?i-mx:855 Commonwealth)
+    Boston University Central:
+      type      : Landmark
+      latitude  : 42.350301
+      longitude : -71.105982
+      patterns  :
+        - (?i-mx:BU\/brookline)
+    Boston University East:
+      type      : Landmark
+      latitude  : 42.34922
+      longitude : -71.101553
+      patterns  :
+        - (?i-mx:B\.?U\.? East)
+        - (?i-mx:Boston University at Morse Auditorium on Commonwealth Ave)
+        - (?i-mx:Commonwealth .*? Silber)
+    Commonwealth Ave & Pleasant St:
+      type      : Intersection
+      latitude  : 42.3515115
+      longitude : -71.1182622
+      main      : Commonwealth
+      cross     : Pleasant
+  Back Bay:
+    Boston Public Library:
+      type      : Landmark
+      latitude  : 42.349696
+      longitude : -71.078614
+      patterns  :
+        - (?i-mx:Copley Square West)
+        - (?i-mx:Boylston St @ BPL)
+        - (?i-mx:Boston Pulbic Library)
+        - (?i-mx:Boston Library)
+    Clarendon St & Public Alley 439:
+      type      : Intersection
+      latitude  : 42.35109708
+      longitude : -71.07542524
+      main      : Clarendon
+      cross     : Public Alley 439
+      patterns  :
+        - (?i-mx:\AClarendon Street\z)
+    Clarendon St & Newbury St:
+      type      : Intersection
+      latitude  : 42.3499676
+      longitude : -71.07483057
+      main      : Clarendon
+      cross     : Newbury
+      patterns  :
+        - (?i-mx:Clarendon.*?H&M)
+        - (?i-mx:Claredon.*?H&M)
+    Clarendon St & Boylston St:
+      type      : Intersection
+      latitude  : 42.351002
+      longitude : -71.075451
+      main      : Clarendon
+      cross     : Boylston
+      patterns  :
+        - (?i-mx:Copley Square North)
+        - (?i-mx:220 Clarendon)
+        - (?i-mx:Clarendon .*? Copley)
+        - (?i-mx:Clarendon\/Boylston)
+        - (?i-mx:Clarendon St [A-Za-z]+ Trinity Church)
+    Stuart St & Trinity Pl:
+      type      : Intersection
+      latitude  : 42.348506
+      longitude : -71.07558899999999
+      main      : Stuart
+      cross     : Trinity
+      patterns  :
+        - (?i-mx:Copley Square South)
+        - (?i-mx:Back Bay .*? Stuart)
+        - (?i-mx:Trinity Place)
+    Stuart St & Dartmouth St:
+      type      : Intersection
+      latitude  : 42.3483035
+      longitude : -71.0764342
+      main      : Stuart
+      cross     : Dartmouth
+      patterns  :
+        - (?i-mx:Stuart .*? Dartmouth)
+    Stuart St & Berkeley St:
+      type      : Intersection
+      latitude  : 42.34954189
+      longitude : -71.07221108
+      main      : Stuart
+      cross     : Berkeley
+      patterns  :
+        - (?i-mx:Stuart .*? Berkeley)
+        - (?i-mx:Berkeley .*? Stuart)
+    Huntington Ave & Belvidere St:
+      type      : Intersection
+      latitude  : 42.345558
+      longitude : -71.082319
+      main      : Huntington
+      cross     : Belvidere
+      patterns  :
+        - (?i-mx:Prudential .*? Belvidere)
+        - (?i-mx:Belvedere)
+        - (?i-mx:Belvidere .*? Prudential)
+        - (?i-mx:Belvidere)
+    Prudential Center Plaza:
+      type      : Landmark
+      latitude  : 42.345644
+      longitude : -71.08250269
+      patterns  :
+      - (?i-mx:Christian Science .*? Fountain)
+  Bay Village: {}
+  Beacon Hill: {}
+  Brookline:
+    Beacon St & Englewood Ave:
+      type      : Intersection
+      latitude  : 42.3370071
+      longitude : -71.1450084
+      main      : Beacon
+      cross     : Englewood
+    Brookline Village:
+      type      : Landmark
+      latitude  : 42.33226817
+      longitude : -71.11594028
+    Brookline High School:
+      type      : Landmark
+      latitude  : 42.33261134
+      longitude : -71.1284861
+  Burlington:
+    99 South Bedford St:
+      type      : Address
+      latitude  : 42.48339943
+      longitude : -71.19388278
+      number    : 99
+      street    : South Bedford
+      patterns  :
+        - (?i-mx:99 S(outh)?\.? Bedford)
+  Cambridge:
+    36 Cambridge Park Drive:
+      type      : Address
+      latitude  : 42.39443623
+      longitude : -71.14547464
+      number    : 36
+      street    : Cambridge Park
+      patterns  :
+        - (?i-mx:36 Cambridgepark)
+    87 Cambridge Park Drive:
+      type      : Address
+      latitude  : 42.39523347
+      longitude : -71.14324302
+      number    : 87
+      street    : Cambridge Park
+    Alewife:
+      type      : Landmark
+      latitude  : 42.39395409
+      longitude : -71.14360297
+    Harvard University:
+      type      : Landmark
+      latitude  : 42.37559323
+      longitude : -71.11642358
+      patterns  :
+        - (?i-mx:Oxford.*?Kirkland)
+        - (?i-mx:Harvard Yard)
+    Kendall Square:
+      type      : Landmark
+      latitude  : 42.3628741
+      longitude : -71.0900971
+      patterns  :
+        - (?i-mx:Kendall)
+    Cambridge Winter Farmers Market:
+      type      : Event
+      latitude  : 42.36551861
+      longitude : -71.1111432
+      patterns  :
+        - (?i-mx:Cambrige Winter Farmers Market)
+    Discovery Park:
+      type      : Landmark
+      latitude  : 42.39860522
+      longitude : -71.14913503
+    Greenway Open Market:
+      type      : Event
+      latitude  : 42.37682631
+      longitude : -71.11769692999999
+  Charlestown:
+    Navy Yard:
+      type      : Landmark
+      latitude  : 42.374417
+      longitude : -71.05501099999999
+  Chestnut Hill:
+    Cassidy Park:
+      type      : Landmark
+      latitude  : 42.33598377
+      longitude : -71.15156598999999
+  Chinatown:
+    Boylston St & Washington St:
+      type      : Intersection
+      latitude  : 42.35235
+      longitude : -71.06281
+      main      : Boylston
+      cross     : Washington
+    Chinatown Gate:
+      type      : Landmark
+      latitude  : 42.35107615
+      longitude : -71.059625
+      patterns  :
+        - (?i-mx:Chinatown Park)
+        - (?i-mx:China Town Gate)
+        - (?i-mx:Beach Street)
+  Dorchester:
+    Ashmont Station:
+      type      : Landmark
+      latitude  : 42.284652
+      longitude : -71.064489
+      patterns  :
+        - (?i-mx:Ashmont T?)
+  Downtown:
+    City Hall Plaza:
+      type      : Landmark
+      latitude  : 42.359747
+      longitude : -71.057401
+      patterns  :
+        - (?i-mx:City Hall)
+        - (?i-mx:City Sq(are)?)
+    Long Wharf:
+      type      : Landmark
+      latitude  : 42.3587087
+      longitude : -71.0521236
+      patterns  :
+        - (?i-mx:Aquarium)
+        - (?i-mx:Milk .*?Greenway)
+        - (?i-mx:Milk .*?Atlantic)
+        - (?i-mx:Greenway .*?Milk)
+        - (?i-mx:Atlantic .*?Milk)
+        - (?i-mx:Rings Fountain)
+        - (?i-mx:Greenway .*?State)
+    Rowes Wharf:
+      type      : Landmark
+      latitude  : 42.356691
+      longitude : -71.051099
+      patterns  :
+        - (?i-mx:Rhowe'?s Wh?arf)
+        - (?i-mx:Rowe'?s Wh?arf)
+        - (?i-mx:High .*?Greenway)
+        - (?i-mx:Greenway .*?High)
+        - (?i-mx:Atlantic .*?High)
+        - (?i-mx:Kennedy .*?High)
+        - (?i-mx:High .*?Kennedy)
+        - (?i-mx:High .*?Greenway)
+        - (?i-mx:Greenway .*?High)
+    Dewey Square:
+      type      : Landmark
+      latitude  : 42.35294674
+      longitude : -71.05603153
+      patterns  :
+        - (?i-mx:Dewey)
+    Milk St & Kilby St:
+      type      : Intersection
+      latitude  : 42.35756
+      longitude : -71.05511
+      main      : Milk
+      cross     : Kilby
+    Park Street Station:
+      type      : Landmark
+      latitude  : 42.3564234
+      longitude : -71.0618815
+      patterns  :
+        - (?i-mx:Park St(reet)?)
+        - (?i-mx:Brewer Fountain)
+    Pearl St & Franklin St:
+      type      : Intersection
+      latitude  : 42.35609
+      longitude : -71.05489
+      main      : Pearl
+      cross     : Franklin
+    Rose Kennedy Greenway @ Congress St:
+      type      : Landmark
+      latitude  : 42.353916
+      longitude : -71.0539043
+      patterns  :
+        - (?i-mx:Kennedy .*?Congress)
+        - (?i-mx:Congress .*?Kennedy)
+        - (?i-mx:Congress .*?Greenway)
+        - (?i-mx:Greenway .*?Congress)
+    Rose Kennedy Greenway @ Oliver St:
+      type      : Landmark
+      latitude  : 42.3544698
+      longitude : -71.0525624
+      patterns  :
+        - (?i-mx:Greenway, Echelman Sculpture at Oliver St)
+        - (?i-mx:Greenway, Fort Point Park)
+  East Boston:
+    Maverick Square:
+      type      : Landmark
+      latitude  : 42.3689227
+      longitude : -71.0398415
+      patterns  :
+        - (?i-mx:Maverick Sq(uare)?)
+  Everett:
+    Excel Academy:
+      type      : Landmark
+      latitude  : 42.38459524
+      longitude : -70.99852797
+      patterns  :
+        - (?i-mx:135 Santilli Hway Everett)
+    Night Shift Brewery:
+      type    : Landmark
+      latitude  : 42.40579475
+      longitude : -71.06716004
+  Fenway-Kenmore:
+    Huntington Ave & Opera Pl:
+      type      : Intersection
+      latitude  : 42.340307
+      longitude : -71.088967
+      main      : Huntington
+      cross     : Opera
+      patterns  :
+        - (?i-mx:Northeastern .*?Opera)
+        - (?i-mx:Opera .*?Northeastern)
+    Northeastern University:
+      type      : Landmark
+      latitude  : 42.339807
+      longitude : -71.089172
+      patterns  :
+        - (?i-mx:716 Columbus Ave)
+  Framingham:
+    Framingham Centre Common:
+      type      : Landmark
+      latitude  : 42.30257075
+      longitude : -71.43472128000001
+  Jamaica Plain:
+    Loring Geenough House:
+      type      : Landmark
+      latitude  : 42.37682631
+      longitude : -71.11769692999999
+      patterns  :
+        - (?i-mx:12 South St)
+        - (?i-mx:Loring-Greenough)
+    Egleston Farmers Market:
+      type      : Event
+      latitude  : 42.313539
+      longitude : -71.103587
+      patterns  :
+        - (?i-mx:Egleston Farmer'?s Market)
+    Arnold Arboretum:
+      type      : Landmark
+      latitude  : 42.30826372
+      longitude : -71.11998283
+  Hyde Park: {}
+  Lexington:
+    Hartwell Ave:
+      type      : Landmark
+      latitude  : 42.465734
+      longitude : -71.26382599999999
+  Malden:
+    Malden Center:
+      type      : Landmark
+      latitude  : 42.426715
+      longitude : -71.07407000000001
+  Mattapan: {}
+  Mission Hill:
+    Longwood Ave & Blackfan Cir:
+      type      : Intersection
+      latitude  : 42.3390815
+      longitude : -71.1057846
+      main      : Longwood
+      cross     : Blackfan
+      patterns  :
+        - (?i-mx:Longwood Area at Blackfan Street)
+    Longwood Ave & Avenue Louis Pasteur:
+      type      : Intersection
+      latitude  : 42.336928
+      longitude : -71.103054
+      main      : Longwood
+      cross     : Louis Pasteur
+      patterns  :
+        - (?i-mx:Longwood .*? Louis Pasteur)
+        - (?i-mx:\ALongwood Medical Area, on Blackfan St. near Merck\z)
+    New England Baptists Hospital:
+      type      : Landmark
+      latitude  : 42.329524
+      longitude : -71.106881
+      patterns  :
+        - (?i-mx:Baptist Hospital)
+    Children's Hospital:
+      type      : Landmark
+      latitude  : 42.33767173
+      longitude : -71.1051068
+  Natick:
+    Belkin Family Lookout Farm:
+      type      : Landmark
+      latitude  : 42.263066
+      longitude : -71.309126
+      patterns  :
+        - (?i-mx:Lookout Farm)
+  Needham:
+    Needham Center:
+      type      : Landmark
+      latitude  : 42.281331
+      longitude : -71.237541
+  Newton:
+    Route 9 & Elliot St:
+      type      : Intersection
+      latitude  : 42.3187859
+      longitude : -71.2125276
+      main      : Route 9
+      cross     : Elliot
+      patterns  :
+        - (?i-mx:Route 9 .*? Woodward\/Elliot)
+        - (?i-mx:Route 9 .*? (Woodward|Elliot))
+    Commonwealth Ave & Hammond St:
+      type      : Intersection
+      latitude  : 42.336096
+      longitude : -71.1786085
+      main      : Commonwealth
+      cross     : Hammond
+      patterns  :
+        - (?i-mx:Comm\. .*? Hammond)
+    Upper Falls Spirits:
+      type      : Landmark
+      latitude  : 42.31209951
+      longitude : -71.21215934
+  North End:
+    Greenway Carousel:
+      type      : Landmark
+      latitude  : 42.360557
+      longitude : -71.0527183
+      patterns  :
+        - (?i-mx:\ACarousel\z)
+    Cross St & Hanover St:
+      type      : Intersection
+      latitude  : 42.3625098
+      longitude : -71.055716
+      main      : Cross
+      cross     : Hanover
+  North Andover:
+    Merrimack College:
+      type      : Landmark
+      latitude  : 42.667705
+      longitude : -71.122571
+  Roslindale: {}
+  Roxbury:
+    Boston Police Headquarters:
+      type      : Landmark
+      latitude  : 42.3341758
+      longitude : -71.0929667
+    Dudley Square:
+      type      : Landmark
+      latitude  : 42.329781
+      longitude : -71.084763
+    Hampden St & Kemble St:
+      type      : Intersection
+      latitude  : 42.3298404
+      longitude : -71.0749273
+      main      : Hampden
+      cross     : Kemble
+      patterns  :
+        - (?i-mx:Hampden .*? Kemble)
+    155 Southampton St:
+      type      : Address
+      number    : 155
+      street    : Southampton
+      latitude  : 42.3309981
+      longitude : -71.06645245
+  Somerville:
+    Aeronaut Brewing Company:
+      type      : Landmark
+      latitude  : 42.381869
+      longitude : -71.10563
+      patterns  :
+        - (?i-mx:Aeronaut Brewery)
+    Assembly Square:
+      type      : Landmark
+      latitude  : 42.37682631
+      longitude : -71.11769692999999
+      patterns  :
+        - (?i-mx:Assembly Row - Somerville)
+    Taza Chocolate:
+      type      : Landmark
+      latitude  : 42.37582537
+      longitude : -71.09399062999999
+  South Boston: {}
+  South End:
+    SoWa Open Market:
+      type      : Event
+      latitude  : 42.342531
+      longitude : -71.065299
+      patterns  :
+        - !ruby/regexp /SOWA/
+        - !ruby/regexp /SoWa/
+    Peter's Park:
+      type      : Landmark
+      latitude  : 42.34384
+      longitude : -71.06717
+    Boston Medical Center:
+      type      : Landmark
+      latitude  : 42.336673
+      longitude : -71.073097
+      patterns  :
+        - (?i-mx:BU Medical Center)
+        - (?i-mx:Harrison .*? East Concord)
+  Waltham:
+    411 Waverley Oaks Rd:
+      type      : Address
+      latitude  : 42.386903
+      longitude : -71.2016739
+      number    : 411
+      street    : Waverley Oaks
+    Constant Contact:
+      type      : Landmark
+      latitude  : 42.41700333
+      longitude : -71.25854551
+  Waterfront:
+    23 Drydock Ave:
+      type      : Address
+      latitude  : 42.3448104
+      longitude : -71.0303901
+      number    : 23
+      street    : Drydock
+      patterns  :
+        - (?i-mx:23 Dry Dock Ave)
+    Innovation & Design Building:
+      type      : Landmark
+      latitude  : 42.344664
+      longitude : -71.0343386
+      patterns  :
+        - (?i-mx:Innovation .*? Design)
+    Seaport Blvd & Thomson Pl:
+      type      : Intersection
+      latitude  : 42.35219
+      longitude : -71.04658999999999
+      main      : Seaport
+      cross     : Thomson
+      patterns  :
+        - (?i-mx:Seaport .*? Thompson)
+        - (?i-mx:Seaport .*? Thomson)
+        - (?i-mx:Innovation District)
+    Marine Industrial Park:
+      type      : Landmark
+      latitude  : 42.344208
+      longitude : -71.037705
+      patterns  :
+        - (?i-mx:MarineIndustrial)
+    Courthouse:
+      type      : Landmark
+      latitude  : 42.35266805
+      longitude : -71.04781814
+      patterns  :
+        - (?i-mx:Courthouse Station)
+  Watertown:
+    Commander's Mansion:
+      type      : Landmark
+      latitude  : 42.360476
+      longitude : -71.16316164
+      patterns  :
+        - (?i-mx:440 Talcott Ave)
+        - (?i-mx:Commanders Mansion)
+    Arsenal Mall:
+      type      : Landmark
+      latitude  : 42.3620141
+      longitude : -71.15756118
+    Athena Health:
+      type      : Landmark
+      latitude  : 42.36237095
+      longitude : -71.16495262
+  West End:
+    Blossom St & Emerson Pl:
+      type      : Intersection
+      latitude  : 42.36444
+      longitude : -71.06863
+      main      : Blossom
+      cross     : Emerson
+      patterns  :
+        - (?i-mx:(Mass General|MGH) .*? Blossom)
+        - (?i-mx:Blossom .*? (Mass General|MGH))
+    Cambridge St & New Chardon St:
+      type      : Intersection
+      latitude  : 42.3612953
+      longitude : -71.0628689
+      main      : Cambridge
+      cross     : New Chardon
+      patterns  :
+        - (?i-mx:Cambridge St.\/New Chardon St)
+        - (?i-mx:New Chardon Street)
+  West Roxbury: {}
+  Worcester:
+    Elm Park:
+      type      : Landmark
+      latitude  : 42.26762314
+      longitude : -71.81769022
+Vancouver:
+  Abbotsford:
+    Abbotsford Exhibition Park:
+      type      : Landmark
+      latitude  : 49.06646099
+      longitude : -122.32504888
+      patterns  :
+        - (?i-mx:32470 Haida Drive Abbotsford)
+  Arbutus-Ridge:
+    Carnarvon Park:
+      type      : Landmark
+      latitude  : 49.25736755
+      longitude : -123.17059156
+  Burnaby:
+    Burnaby Lake Rowing Pavillion:
+      type      : Landmark
+      latitude  : 49.2451852
+      longitude : -122.92286715
+      patterns  :
+        - (?i-mx:Burnaby Lake Rowing pavillion)
+  Chilliwack:
+    Heritage Park:
+      type      : Landmark
+      latitude  : 49.13801631
+      longitude : -121.89400042
+  Cloverdale:
+    Cloverdale Rodeo:
+      type      : Event
+      latitude  : 49.111946
+      longitude : -122.734529
+  Commercial Drive:
+    East 7th Ave & Commercial Dr:
+      type      : Intersection
+      main      : East 7th
+      cross     : Commercial
+      latitude  : 49.26409255
+      longitude : -123.06968029
+      patterns  :
+        - (?i-mx:Commercial .*? 7th)
+        - (?i-mx:7th .*? Commercial)
+        - (?i-mx:commercial & e. 7th ave)
+    Commercial Dr & Grant St:
+      type      : Intersection
+      main      : Commercial
+      cross     : Grant
+      latitude  : 49.2712863
+      longitude : -123.0695676
+      patterns  :
+        - (?i-mx:1510 commercial drive)
+        - (?i-mx:Commercial .*? Grant)
+        - (?i-mx:Grant .*? Commercial)
+    Rio Theatre:
+      type      : Landmark
+      latitude  : 49.2622021
+      longitude : -123.07067401
+  Downtown:
+    Beatty St & Dunsmuir St:
+      type      : Intersection
+      main      : Beatty
+      cross     : Dunsmuir
+      latitude  : 49.2798502
+      longitude : -123.1105849
+    Burrard St & Canada Way:
+      type      : Intersection
+      main      : Burrard
+      cross     : Canada
+      latitude  : 49.2881421
+      longitude : -123.1154926
+      patterns  :
+        - (?i-mx:Burrard .*? Canada Way)
+        - (?i-mx:Canaday Way .*? Burrard)
+    Burrard St & Dunsmuir St:
+      type      : Intersection
+      main      : Burrard
+      cross     : Dunsmuir
+      latitude  : 49.2855457
+      longitude : -123.1193954
+      patterns  :
+        - (?i-mx:Burrard .*? Dunsmuir)
+        - (?i-mx:Dunsmuir .*? Burrard)
+    Burrard St & Robson St:
+      type      : Intersection
+      main      : Burrard
+      cross     : Robson
+      latitude  : 49.2832949
+      longitude : -123.1228016
+      patterns  :
+        - (?i-mx:Burrard .*? Robson)
+        - (?i-mx:Robson .*? Burrard)
+    Burrard St & Hastings St:
+      type      : Intersection
+      main      : Burrard
+      cross     : Hastings
+      latitude  : 49.2871235
+      longitude : -123.1170166
+      patterns  :
+        - (?i-mx:Burrard .*? Hastings)
+        - (?i-mx:Hastings .*? Burrard)
+    Burrard St & Pender St:
+      type      : Intersection
+      main      : Burrard
+      cross     : Pender
+      latitude  : 49.2865925
+      longitude : -123.117793
+      patterns  :
+        - (?i-mx:Burrard .*? Pender)
+        - (?i-mx:Pender .*? Burrard)
+    Cordova St & Thurlow St:
+      type      : Intersection
+      main      : Cordova
+      cross     : Thurlow
+      latitude  : 49.2883355
+      longitude : -123.1191713
+      patterns  :
+        - (?i-mx:Cordova .*? Thurlow)
+        - (?i-mx:Thurlow .*? Cordova)
+    David Lam Park:
+      type      : Landmark
+      latitude  : 49.272325
+      longitude : -123.124865
+    Expo Blvd & Abbott St:
+      type      : Intersection
+      main      : Expo
+      cross     : Abbott
+      latitude  : 49.2786163
+      longitude : -123.1076226
+      patterns  :
+        - (?i-mx:Expo .*? Abbott?)
+        - (?i-mx:Abbott? .*? Expo)
+    Granville St & Dunsmuir St:
+      type      : Intersection
+      main      : Granville
+      cross     : Dunsmuir
+      latitude  : 49.28357354
+      longitude : -123.1163047
+      patterns  :
+        - (?i-mx:Granville .*? Dunsmuir)
+        - (?i-mx:Dunsmuir .*? Granville)
+        - (?i-mx:Granville St & Dunsmuir St)
+        - (?i-mx:Granville Skytrain)
+    Granville St & Robson St:
+      type      : Intersection
+      main      : Granville
+      cross     : Robson
+      latitude  : 49.281358
+      longitude : -123.119829
+      patterns  :
+        - (?i-mx:Granville .*? Robson)
+        - (?i-mx:Robson .*? Granville)
+    Hastings St & Abbott St:
+      type      : Intersection
+      main      : Hastings
+      cross     : Abbott
+      latitude  : 49.282058
+      longitude : -123.10710422
+      patterns  :
+        - (?i-mx:Gastown Brunch Crawl)
+    Hamilton St & Georgia St:
+      type      : Intersection
+      main      : Hamilton
+      cross     : Georgia
+      latitude  : 49.2799628
+      longitude : -123.1142285
+      patterns  :
+        - (?i-mx:Hamilton .*? Georgia)
+        - (?i-mx:Georgia .*? Hamilton)
+    Hamilton St & Dunsmuir St:
+      type      : Intersection
+      main      : Hamilton
+      cross     : Dunsmuir
+      latitude  : 49.2810942
+      longitude : -123.1125113
+      patterns  :
+        - (?i-mx:600 Hamilton)
+        - (?i-mx:Hamilton .*? Dunsimuir)
+        - (?i-mx:Dunsimuir .*? Hamilton)
+    Howe St & Dunsmuir St:
+      type      : Intersection
+      main      : Howe
+      cross     : Dunsmuir
+      latitude  : 49.2842709
+      longitude : -123.1173941
+      patterns  :
+        - (?i-mx:Howe .*? Dunsimuir)
+        - (?i-mx:Howe .*? Dunsmuir)
+        - (?i-mx:Dunsimuir .*? Howe)
+    Howe St & Cordova St:
+      type      : Intersection
+      main      : Howe
+      cross     : Cordova
+      latitude  : 49.2866174
+      longitude : -123.1138591
+      patterns  :
+        - (?i-mx:Howe .*? Cordova)
+        - (?i-mx:Cordova .*? Howe)
+    Howe St & Georgia St:
+      type      : Intersection
+      main      : Howe
+      cross     : Georgia
+      latitude  : 49.2831379
+      longitude : -123.1191186
+      patterns  :
+        - (?i-mx:Howe .*? Georgia)
+        - (?i-mx:Georgia .*? Howe)
+    Pacific Blvd & Davie St:
+      type      : Intersection
+      main      : Pacific
+      cross     : Davie
+      latitude  : 49.2740355
+      longitude : -123.1214823
+      patterns  :
+        - (?i-mx:Pacific .*? Davie)
+        - (?i-mx:Davie .*? Pacific)
+    Robson St & Howe St:
+      type      : Intersection
+      main      : Robson
+      cross     : Howe
+      latitude  : 49.2820134
+      longitude : -123.1208172
+      patterns  :
+        - (?i-mx:Robson .*? Howe)
+        - (?i-mx:Howe .*? Robson)
+    Rogers Arena:
+      type      : Landmark
+      latitude  : 49.27854316
+      longitude : -123.10819253
+    Roundhouse Community Centre:
+      type      : Landmark
+      latitude  : 49.272936
+      longitude : -123.122578
+      patterns  :
+        - (?i-mx:Roundhouse Community)
+    The Media Club:
+      type      : Landmark
+      latitude  : 49.279753
+      longitude : -123.113024
+    Cordova St & Thurlow St:
+      type      : Intersection
+      main      : Cordova
+      cross     : Thurlow
+      latitude  : 49.2883355
+      longitude : -123.1191713
+      patterns  :
+        - (?i-mx:Cordova .*? Thurlow)
+        - (?i-mx:Thurlow .*? Cordova)
+    Cordova St & Seymour St:
+      type      : Intersection
+      main      : Cordova
+      cross     : Seymour
+      latitude  : 49.2853394
+      longitude : -123.1118689
+      patterns  :
+        - (?i-mx:Cordova .*? Seymour)
+        - (?i-mx:Seymour .*? Cordova)
+    Georgia St & Hornby St:
+      type      : Intersection
+      main      : Georgia
+      cross     : Hornby
+      latitude  : 49.28377
+      longitude : -123.1200913
+      patterns  :
+        - (?i-mx:Georgia .*? Hornby)
+        - (?i-mx:Hornby .*? Georgia)
+    Georgia St & Burrard St:
+      type      : Intersection
+      main      : Georgia
+      cross     : Burrard
+      latitude  : 49.2844243
+      longitude : -123.1210984
+      patterns  :
+        - (?i-mx:Georgia .*? Burrard)
+        - (?i-mx:Burrard .*? Georgia)
+    Georgia St & Granville St:
+      type      : Intersection
+      main      : Georgia
+      cross     : Granville
+      latitude  : 49.2824942
+      longitude : -123.1181228
+      patterns  :
+        - (?i-mx:Georgia .*? Granville)
+        - (?i-mx:Granville .*? Georgia)
+    Georgia St & Seymour St:
+      type      : Intersection
+      main      : Georgia
+      cross     : Seymour
+      latitude  : 49.2818662
+      longitude : -123.11691607
+    Vancouver Art Gallery:
+      type      : Landmark
+      latitude  : 49.282961
+      longitude : -123.120472
+      patterns  :
+        - (?i-mx:Street Food City .*? Art Gallery)
+        - (?i-mx:Street food city .*? Art Gallery)
+        - (?i-mx:Vancouver Art .*? Streetfoodcity)
+        - !ruby/regexp /VAG/
+        - (?i-mx:Street Food City)
+        - (?i-mx:Art Museum Square)
+        - (?i-mx:Dine Out Vancouver)
+    Long Table Distillery:
+      type      : Landmark
+      latitude  : 49.275776
+      longitude : -123.132397
+      patterns  :
+        - (?i-mx:Longtable Distillery)
+    West Hastings St & Thurlow St:
+      type      : Intersection
+      main      : West Hastings
+      cross     : Thurlow
+      latitude  : 49.28785741
+      longitude : -123.11940256
+      patterns  :
+        - (?i-mx:Hastings .*? Thurlow)
+        - (?i-mx:Thurlow .*? Hastings)
+    Science World:
+      type      : Landmark
+      latitude  : 49.27279971
+      longitude : -123.10210814
+  Dunbar-Southlands:
+    Camosun Park:
+      type      : Landmark
+      latitude  : 49.257189
+      longitude : -123.200312
+  Fairview:
+    Cambie St & East 8th Ave:
+      type      : Intersection
+      main      : Cambie
+      cross     : East 8th
+      latitude  : 49.2641129
+      longitude : -123.1149375
+      patterns  :
+        - (?i-mx:Cambie .*? 8th)
+        - (?i-mx:Cambie .*? Eighth)
+    Olympic Village:
+      type      : Landmark
+      latitude  : 49.2715835
+      longitude : -123.1062431
+      patterns  :
+        - (?i-mx:Athlete'?s Village)
+    West Broadway & Ash St:
+      type      : Intersection
+      main      : West Broadway
+      cross     : Ash
+      latitude  : 49.2632618
+      longitude : -123.1174951
+      patterns  :
+        - (?i-mx:Broadway .*? Ash)
+    West Broadway & Cambie St:
+      type      : Intersection
+      main      : West Broadway
+      cross     : Cambie
+      latitude  : 49.2632359
+      longitude : -123.1150281
+      patterns  :
+        - (?i-mx:Broadway .*? Cambie)
+        - (?i-mx:Cambie .*? Broadway)
+    Granville St & West Broadway:
+      type      : Intersection
+      main      : Granville
+      cross     : West Broadway
+      latitude  : 49.26347553
+      longitude : -123.13867629
+      patterns  :
+        - (?i-mx:Granville & W\.? Broadway)
+    Granville St & West 10th Ave:
+      type      : Intersection
+      main      : Granville
+      cross     : West 10th
+      latitude  : 49.2617187
+      longitude : -123.138627
+      patterns  :
+        - (?i-mx:Granville .*? 10th)
+        - (?i-mx:Granville .*? 10 )
+        - (?i-mx:10t?h? .*? Granville)
+        - (?i-mx:Granville & W.10th Ave)
+    Granville St & West 11th Ave:
+      type      : Intersection
+      main      : Granville
+      cross     : West 11th
+      latitude  : 49.2617187
+      longitude : -123.138627
+      patterns  :
+        - (?i-mx:Granville .*? 11th)
+        - (?i-mx:11th .*? Granville)
+        - (?i-mx:Grenville .*? 11th)
+        - (?i-mx:Granville & 11 Th st.)
+    Granville Island:
+      type      : Landmark
+      latitude  : 49.2708321
+      longitude : -123.1337753
+      patterns  :
+        - (?i-mx:Grandville Island)
+    Vanouver General Hospital:
+      type      : Landmark
+      latitude  : 49.262106
+      longitude : -123.122406
+      patterns  :
+        - (?i-mx:VGH)
+        - (?i-mx:Cancer Agency)
+  Fort Langley:
+    Cranberry Festival:
+      type      : Landmark
+      latitude  : 49.28305
+      longitude : -123.12435
+  Grandview-Woodland:
+    Parallel49 Brewery:
+      type      : Landmark
+      latitude  : 49.283906
+      longitude : -123.064405
+      patterns  :
+        - (?i-mx:49 .*? Brew)
+        - (?i-mx:Brew .*? 49)
+        - (?i-mx:PARALLEL 49)
+        - (?i-mx:Parallel 49 Brewery)
+        - (?i-mx:Parallel 49)
+    Bomber Brewing:
+      type      : Landmark
+      latitude  : 49.27762581
+      longitude : -123.07442304
+      patterns  :
+        - (?i-mx:1488 Adanac)
+    Odd Society Spirits:
+      type      : Landmark
+      latitude  : 49.28401973
+      longitude : -123.06946435
+  Hastings-Sunrise:
+    East Broadway & Renfrew St:
+      type      : Intersection
+      main      : East Broadway
+      cross     : Renfrew
+      latitude  : 49.2619648
+      longitude : -123.0443071
+      patterns  :
+        - (?i-mx:Broadway .*? Renfrew)
+        - (?i-mx:Renfrew .*? Broadway)
+  Kensington-Cedar Cottage:
+    Croatian Cultural Centre:
+      type      : Landmark
+      latitude  : 49.255531
+      longitude : -123.068585
+      patterns  :
+        - (?i-mx:KNIT CITY)
+    John Hendry Park:
+      type      : Landmark
+      latitude  : 49.256144
+      longitude : -123.061522
+      patterns  :
+        - (?i-mx:Jhon Hendry Park)
+    Trout Lake Farmers Market:
+      type      : Event
+      latitude  : 49.25467877
+      longitude : -123.06496235
+      patterns  :
+        - (?i-mx:Trout Lake Farmer'?s Market)
+        - (?i-mx:Farmer'?s Market .*? Trout Lake)
+        - (?i-mx:Trout lake Farmers Market)
+  Kerrisdale:
+    West 41st Ave & East Blvd:
+      type      : Intersection
+      main      : West 41st
+      cross     : East
+      latitude  : 49.23460899
+      longitude : -123.15501762
+    West 41st Ave & Yew St:
+      type      : Intersection
+      main      : West 41st
+      cross     : Yew
+      latitude  : 49.234616
+      longitude : -123.157764
+    Kerrisdale Arena:
+      type      : Landmark
+      latitude  : 49.23554821
+      longitude : -123.15490573
+    McCleery Golf Course:
+      type      : Landmark
+      latitude  : 49.223085
+      longitude : -123.1662176
+      patterns  :
+        - (?i-mx:7025 Macdonald St)
+  Killarney: {}
+  Kitsilano:
+    Burrard & West 1st Ave:
+      type  : Intersection
+      main  : Burrard
+      cross   : West 1st
+      latitude  : 49.27065346
+      longitude : -123.14578049
+      patterns:
+        - (?i-mx:Burrard & 1st)
+    York Ave & Chestnut St:
+      type      : Intersection
+      main      : York
+      cross     : Chestnut
+      latitude  : 49.27138948
+      longitude : -123.1464438
+      patterns  :
+        - (?i-mx:Lululemon HQ)
+    West 4th Ave & Yew St:
+      type      : Intersection
+      main      : West 4th
+      cross     : Yew
+      latitude  : 49.2681826
+      longitude : -123.1551591
+      patterns  :
+        - (?i-mx:W 4th Ave & Yew St)
+    West 4th Ave & Vine St:
+      type      : Intersection
+      main      : West 4th
+      cross     : Vine
+      latitude  : 49.2682096
+      longitude : -123.1575029
+      patterns  :
+        - (?i-mx:W 4th \(Between Yew & Vine\))
+    West 4th Ave & Burrard St:
+      type      : Intersection
+      main      : West 4th
+      cross     : Burrard
+      latitude  : 49.26810609
+      longitude : -123.1450635
+      patterns  :
+        - (?i-mx:W 4th .*? Burrard)
+        - (?i-mx:Burrard .*? W 4th)
+    Kits Beach:
+      type      : Landmark
+      latitude  : 49.27256167
+      longitude : -123.15369683
+    Kitsilano Farmers Market:
+      type      : Event
+      latitude  : 49.26167545
+      longitude : -123.16237408
+      patterns  :
+        - (?i-mx:Kitsilano Farmer'?s Market)
+        - (?i-mx:Kits Farmers Market)
+        - (?i-mx:Kitsilano Farmers market)
+    Cornwall Ave & Cypress St:
+      type      : Intersection
+      main      : Cornwall
+      cross     : Cypress
+      latitude  : 49.2724775
+      longitude : -123.147793
+    Cornwall Ave & Yew St:
+      type      : Intersection
+      main      : Cornwall
+      cross     : Yew
+      latitude  : 49.27235359
+      longitude : -123.15500213
+    West Broadway & Arbutus St:
+      type      : Intersection
+      main      : West Broadway
+      cross     : Arbutus
+      latitude  : 49.263783
+      longitude : -123.1529284
+    West Broadway & Maple St:
+      type      : Intersection
+      main      : West Broadway
+      cross     : Maple
+      latitude  : 49.26362734
+      longitude : -123.15040198
+    West 4th Ave & Maple St:
+      type      : Intersection
+      main      : West 4th
+      cross     : Maple
+      latitude  : 49.26801443
+      longitude : -123.14958625
+      patterns  :
+        - (?i-mx:1968 4th Ave W. Vancouver)
+        - (?i-mx:Patagonia)
+    Kitsilano Comunity Center:
+      type      : Landmark
+      latitude  : 49.2683435
+      longitude : -123.1681598
+  Langly:
+    Mommies And Munchkins Fair:
+      type      : Landmark
+      latitude  : 49.09155315
+      longitude : -122.65719145
+    George Preston Recreation Centre:
+      type      : Landmark
+      latitude  : 49.07841812
+      longitude : -122.65113869
+    Township 7 Vineyards & Winery:
+      type      : Landmark
+      latitude  : 49.031156
+      longitude : -122.636436
+  Maple Ridge:
+    Outpost Liquor Store:
+      type      : Landmark
+      latitude  : 49.219983
+      longitude : -122.55753
+  Marpole: {}
+  Mount Pleasant:
+    False Creek Flats:
+      type      : Landmark
+      latitude  : 49.27123766
+      longitude : -123.1138929
+    33 Acres Brewing Co:
+      type      : Landmark
+      latitude  : 49.263999
+      longitude : -123.105307
+      patterns  :
+        - (?i-mx:33 ?Acres)
+        - (?i-mx:15 West 8th Ave)
+    Brassneck Brewery:
+      type      : Landmark
+      latitude  : 49.26568
+      longitude : -123.100674
+    Main St & East Broadway:
+      type      : Intersection
+      main      : Main
+      cross     : Broadway
+      latitude  : 49.2629122
+      longitude : -123.1008825
+      patterns  :
+        - (?i-mx:Main St .*? Broadway)
+    Main St & East 13th Ave:
+      type      : Intersection
+      main      : Main
+      cross     : East 13th
+      latitude  : 49.2593357
+      longitude : -123.10090054
+    Main St & East 14th Ave:
+      type      : Intersection
+      main      : Main
+      cross     : East 14th
+      latitude  : 49.2583988
+      longitude : -123.1011669
+      patterns  :
+        - (?i-mx:Main on 14th Avenue)
+    Manitoba St & West 6th Ave:
+      type      : Intersection
+      main      : Manitoba
+      cross     : West 6th
+      latitude  : 49.26558321
+      longitude : -123.10675202
+      patterns  :
+        - (?i-mx:Manitoba St\. & W 6th Ave)
+    Vancouver Community College:
+      type      : Landmark
+      latitude  : 49.26385821
+      longitude : -123.07985855
+      patterns  :
+        - (?i-mx:VCC)
+        - (?i-mx:Community College 1155 E Broadway)
+    MEC on West Broadway:
+      type      : Landmark
+      latitude  : 49.26291375
+      longitude : -123.10840913
+      patterns  :
+        - (?i-mx:Broadway.*?Mec)
+        - (?i-mx:Mec.*?Broadway)
+        - (?i-mx:Broadway.*?MEC)
+        - (?i-mx:MEC.*?Broadway)
+    West 8th Ave & Yukon St:
+      type      : Intersection
+      main      : West 8th
+      cross     : Yukon
+      latitude  : 49.26399252
+      longitude : -123.11270735
+    Creekside Community Recreation Centre:
+      type      : Landmark
+      latitude  : 49.2714502
+      longitude : -123.1055344
+      patterns  :
+        - (?i-mx:1 Athletes Way)
+  Mount Seymour:
+    Mount Seymour:
+      type      : Landmark
+      latitude  : 49.36715336
+      longitude : -122.94923223
+      patterns  :
+        - (?i-mx:Mt Seymour)
+  New Westminster:
+    Steel & Oak Brewing Co:
+      type      : Landmark
+      latitude  : 49.201952
+      longitude : -122.927372
+      patterns  :
+        - (?i-mx:Steel & Oak Brewery)
+  North Vancouver:
+    Night Market:
+      type      : Landmark
+      latitude  : 49.30927053
+      longitude : -123.07903201
+      patterns  :
+        - (?i-mx:Night market, North Vancouver)
+        - (?i-mx:Night market at Victory Ship Way)
+    MEC Main Street:
+      type      : Landmark
+      latitude  : 49.158935
+      longitude : -122.9610795
+    Lions Gate Hospital:
+      type      : Landmark
+      latitude  : 49.320764
+      longitude : -123.068346
+      patterns  :
+        - (?i-mx:LIONS GATE HOSPITAL)
+    Deep Cove Brewers and Distillers:
+      type      : Landmark
+      latitude  : 49.30631945
+      longitude : -123.0114364
+      patterns  :
+        - (?i-mx:Deep Cove Brewery)
+    Lonsdale Skate Park:
+      type      : Landmark
+      latitude  : 49.33127902
+      longitude : -123.07125199
+    Pier Market:
+      type      : Landmark
+      latitude  : 49.30941827
+      longitude : -123.07678048
+      patterns  :
+        - (?i-mx:North Van.*?Pier Market)
+        - (?i-mx:138 Victory Ship Way)
+    North Shore Green Markets:
+      type      : Landmark
+      latitude  : 49.30949273
+      longitude : -123.07517278
+    Norseman Park:
+      type      : Landmark
+      latitude  : 49.33078185
+      longitude : -123.07054371
+      patterns  :
+        - (?i-mx:Centennial Theatre)
+        - (?i-mx:CityFest)
+    Ship Yards:
+      type      : Landmark
+      latitude  : 49.30987557
+      longitude : -123.07953358
+      patterns  :
+        - (?i-mx:North Van Ship Yards)
+    Capilano University:
+      type      : Landmark
+      latitude  : 49.34883391
+      longitude : -123.05412348
+      patterns  :
+        - (?i-mx:2055 Purcell Way North Vancouver)
+    John Lawson Park:
+      type      : Landmark
+      latitude  : 49.32698608
+      longitude : -123.16032268
+  Oakridge: {}
+  Point Grey:
+    Alma St & Point Grey Rd:
+      type      : Intersection
+      main      : Alma
+      cross     : Point Grey
+      latitude  : 49.272264
+      longitude : -123.185592
+    Jericho Beach Park:
+      type      : Landmark
+      latitude  : 49.2742544
+      longitude : -123.20354673
+  Port Moody:
+    300 Ioco Road:
+      type      : Address
+      number   : 300
+      street   : Ioco
+      latitude  : 49.2845492
+      longitude : -122.831953
+  Renfrew-Collingwood:
+    Renfrew Station:
+      type      : Landmark
+      latitude  : 49.25890971
+      longitude : -123.04527624
+      patterns  :
+        - (?i-mx:Renfrew .*? Hebb)
+  Richmond:
+    Richmond News Offices:
+      type      : Landmark
+      latitude  : 49.17613139
+      longitude : -123.13711396
+      patterns  :
+        - (?i-mx:Richmond News)
+    Westminster Hwy & No 3 Rd:
+      type      : Intersection
+      main      : Westminster
+      cross     : No 3
+      latitude  : 49.17024078
+      longitude : -123.13665194
+  Riley Park:
+    Nat Bailey Stadium:
+      type      : Landmark
+      latitude  : 49.243326
+      longitude : -123.106119
+      patterns  :
+        - (?i-mx:Nat Baile?y)
+        - (?i-mx:Baeley)
+    Queen Elizabeth Park:
+      type      : Landmark
+      latitude  : 49.24513424
+      longitude : -123.11139844
+    Winter Farmers Market:
+      type      : Event
+      latitude  : 49.24430472
+      longitude : -123.1053565
+      patterns  :
+        - (?i-mx:Winter Farmers? Market)
+        - (?i-mx:Vancouver Farmer'?s? Market)
+  Shaughnessy:
+    VanDusen Botanical Garden:
+      type      : Landmark
+      latitude  : 49.23877059
+      longitude : -123.12846987
+  Simon Fraser University:
+    Simon Fraser University:
+      type      : Landmark
+      latitude  : 49.278094
+      longitude : -122.919883
+  South Cambie: {}
+  Stanley Park:
+    Second Beach:
+      type      : Landmark
+      latitude  : 49.29530028
+      longitude : -123.15061525
+      patterns  :
+        - (?i-mx:Second Beach @ Stanley Park)
+    Chevron Summer Cinema:
+      type      : Landmark
+      latitude  : 49.29473347
+      longitude : -123.14831951
+  Strathcona:
+    1345 Clark Dr:
+      type      : Address
+      number   : 1345
+      street   : Clark
+      latitude  : 49.27072276
+      longitude : -123.07779887
+    Strange Fellows Brewing Company:
+      type      : Landmark
+      latitude  : 49.27253
+      longitude : -123.077839
+      patterns  :
+        - (?i-mx:Strangefellows Brewery)
+        - (?i-mx:Strange Fellows Brewing)
+        - (?i-mx:Strange Fellows Brewery)
+    Great Northern Way Campus:
+      type      : Landmark
+      latitude  : 49.267486
+      longitude : -123.090338
+    Main St & Terminal Ave:
+      type      : Intersection
+      main      : Main
+      cross     : Terminal
+      latitude  : 49.2728704
+      longitude : -123.0999316
+    Powell Street Craft Brewery:
+      type      : Landmark
+      latitude  : 49.2810799
+      longitude : -123.0714412
+      patterns  :
+        - (?i-mx:Powell Street Brewery)
+    Railtown Cafe:
+      type      : Landmark
+      latitude  : 49.284955
+      longitude : -123.095386
+      patterns  :
+        - (?i-mx:Rail ?Town)
+        - (?i-mx:Railway St\.)
+    Railway St & Dunlevy Ave:
+      type      : Intersection
+      main      : Railyway
+      cross     : Dunlevy
+      latitude  : 49.2848757
+      longitude : -123.0952312
+    Railway St & Jackson Ave:
+      type      : Intersection
+      main      : Railway
+      cross     : Jackson
+      latitude  : 49.2847874
+      longitude : -123.0932692
+      patterns  :
+        - (?i-mx:503 Railway St)
+    Strathcona Park Oval:
+      type      : Landmark
+      latitude  : 49.275669
+      longitude : -123.084729
+    Terminal Ave & Thornton St:
+      type      : Intersection
+      main      : Terminal
+      cross     : Thornton
+      latitude  : 49.2717774
+      longitude : -123.0933357
+    Terminal Ave & St George St:
+      type      : Intersection
+      main      : Terminal
+      cross     : St George
+      latitude  : 49.27106856
+      longitude : -123.09080237
+      patterns  :
+        - (?i-mx:Terminal.*?Mercedes)
+        - (?i-mx:Mercedes.*?Terminal)
+        - (?i-mx:\ATerminal St\z)
+    Trillium Park:
+      type      : Landmark
+      latitude  : 49.27458556
+      longitude : -123.09240933
+    Yolk's Restaurant & Commissay:
+      type      : Landmark
+      latitude  : 49.281105
+      longitude : -123.077367
+    Imperial Theatre:
+      type      : Landmark
+      latitude  : 49.28180873
+      longitude : -123.09978237
+    MEC Head Office:
+      type      : Landmark
+      latitude  : 49.266089
+      longitude : -123.082763
+  Sunset: {}
+  Surry:
+    Central City Mall:
+      type      : Landmark
+      latitude  : 49.187452
+      longitude : -122.849319
+    Cloverdale Racetrack:
+      type      : Landmark
+      latitude  : 49.25089386
+      longitude : -123.07119084
+    Cloverdale Fairgrounds:
+      type      : Landmark
+      latitude  : 49.11444333
+      longitude : -122.73282296
+      patterns  :
+        - (?i-mx:Cloverdale Fair Grounds)
+    Southridge School:
+      type      : Landmark
+      latitude  : 49.049977
+      longitude : -122.77868775
+      patterns  :
+        - (?i-mx:South Surrey School Fair)
+        - (?i-mx:Southridge Junior School)
+    Laronde Elementary School:
+      type      : Landmark
+      latitude  : 49.03616192
+      longitude : -122.85879913
+      patterns  :
+        - (?i-mx:1880 Laronde Dr)
+  UBC:
+    East Mall & University Blvd:
+      type      : Intersection
+      main      : East Mall
+      cross     : University
+      latitude  : 49.2656887
+      longitude : -123.2505086
+    Macinnes Field:
+      type      : Landmark
+      latitude  : 49.26769761
+      longitude : -123.24886795
+    Buchanan:
+      type      : Landmark
+      latitude  : 49.26270581
+      longitude : -123.2427517
+      patterns  :
+        - (?i-mx:UBC Main Mall Buch D)
+    Thunderbird Stadium:
+      type      : Landmark
+      latitude  : 49.25585041
+      longitude : -123.24520405
+  Victoria-Fraserview: {}
+  West End:
+    Alberni St & Bute St:
+      type      : Intersection
+      main      : Alberni
+      cross     : Bute
+      latitude  : 49.2867031
+      longitude : -123.125937
+    Denman St & Davie St:
+      type      : Intersection
+      main      : Denman
+      cross     : Davie
+      latitude  : 49.28772675
+      longitude : -123.14170055
+      patterns  :
+        - (?i-mx:1800 Denman)
+        - (?i-mx:1800 Davie)
+    Burrard St & Smithe St:
+      type      : Intersection
+      main      : Burrard
+      cross     : Smithe
+      latitude  : 49.2822373
+      longitude : -123.1244002
+      patterns  :
+        - (?i-mx:Burrard .*? Smithe)
+        - (?i-mx:Smithe .*? Burrard)
+    English Bay:
+      type      : Landmark
+      latitude  : 49.28654689
+      longitude : -123.14308257
+    Beach Ave & Bute St:
+      type      : Intersection
+      main      : Beach
+      cross     : Bute
+      latitude  : 49.27886525
+      longitude : -123.13667251
+  West Point Grey: {}
+  Yaletown:
+    Davie St & Marinaside Cr:
+      type      : Intersection
+      main      : Davie
+      cross     : Marinaside
+      latitude  : 49.2732
+      longitude : -123.11958

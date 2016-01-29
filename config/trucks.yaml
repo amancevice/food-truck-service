@@ -1,0 +1,51 @@
+--- # trucks.yaml
+Boston:
+  Biryani Park:
+    site: snsmarketinc.com
+    patterns:
+      - (?i-mx:SNS BiryaniPark)
+  Bon Me:
+    patterns:
+      - (?i-mx:Bon Me)
+  Bone Daddy's Burgers:
+    patterns:
+      - (?i-mx:Bone Daddy Burgers)
+      - (?i-mx:Daddy's Bonetown Burgers)
+  Chicken & Rice Guys:
+    site: cnrguys.com
+    patterns:
+      - (?i-mx:Chicken and Rice Guys)
+  Clover:
+    patterns:
+      - (?i-mx:Clover)
+  Compliments Food Truck:
+    patterns:
+      - (?i-mx:Compliments)
+  El Diez Argentinian Grill:
+    patterns:
+      - (?i-mx:El Diez Argentenian Grill)
+  Evan's NY Style Deli:
+    patterns:
+      - (?i-mx:Evan'?s .*? Deli)
+  Fugu Truck:
+    patterns:
+      - (?i-mx:Fugu Foods)
+  Lilian's Smokin' Rack Barbecue:
+    patterns:
+      - (?i-mx:Lilian's Smokin' Rack BBQ)
+  Momogoose:
+    patterns:
+      - (?i-mx:Momogoose)
+  Papi's Stuffed Sopapillas:
+    site: stuffedbypapi.com
+    patterns:
+      - (?i-mx:Papi's Stuffed Sopapillias)
+  Redbones Barbecue:
+    patterns:
+      - (?i-mx:Redbones Barbeque)
+  Roxy's Grilled Cheese:
+    patterns:
+      - (?i-mx:Roxy's Gourmet Grilled Cheese)
+  Wow Barbecue:
+    patterns:
+      - (?i-mx:Wow Barbeque)
