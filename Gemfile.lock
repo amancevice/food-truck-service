@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/amancevice/food-trucks-engine
-  revision: 43080f6f21f04ff9eafe333592658d76c9678dfd
+  revision: 775c66193caedbd969e8e2950f94c0401f7cf114
   branch: master
   specs:
     engine (0.0.1)
@@ -48,6 +48,7 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rake (10.5.0)
     ruby-ll (2.1.2)
       ansi
       ast
@@ -72,6 +73,8 @@ DEPENDENCIES
   engine!
   pg
   pry
+  rake
+  sinatra-activerecord
   sqlite3
 
 BUNDLED WITH
