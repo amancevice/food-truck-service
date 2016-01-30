@@ -1,0 +1,17 @@
+--- # Sources
+- class    : StreetFood
+  city     : Boston
+  endpoint : http://data.streetfoodapp.com/1.1/schedule/boston/
+  timezone : US/Eastern
+- class    : StreetFood
+  city     : Toronto
+  endpoint : http://data.streetfoodapp.com/1.1/schedule/toronto/
+  timezone : US/Eastern
+- class    : StreetFood
+  city     : Vancouver
+  endpoint : http://data.streetfoodapp.com/1.1/schedule/vancouver/
+  timezone : US/Pacific
+- class    : CityOfBoston
+  city     : Boston
+  endpoint : http://www.cityofboston.gov/foodtrucks/schedule-app-min.asp
+  timezone : US/Eastern
