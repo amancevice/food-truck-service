@@ -14,12 +14,9 @@ namespace :firebase do
       port:ENV['FOOD_TRUCKS_PORT'],
       path:ENV['FOOD_TRUCKS_PATH'])
     response = source.map do |x|
-      begin
-        client.get x
-      rescue JSON::ParserError => e
-        puts x
-        []
-      end
+      x.symbolize_keys!
+      klass = x[:class]&.constantize
+      klass&.new(x.reject{|k,v| k == :class }).process
     end.flatten
 
     firedata = response.map do |x|
