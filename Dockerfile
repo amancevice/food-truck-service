@@ -2,6 +2,7 @@ FROM ruby:2.3
 MAINTAINER amancevice@cargometrics.com
 
 ENV PLACE_CONFIG=/root/config/places.yaml \
+    RACK_ENV=docker \
     SOURCE_CONFIG=/root/config/sources.yaml \
     TRUCK_CONFIG=/root/config/trucks.yaml
 
