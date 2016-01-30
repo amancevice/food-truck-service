@@ -1,9 +1,9 @@
 ActiveRecord::Base.transaction do
-  places_yaml = ENV['PLACE_CONFIG']||'./config/places.yaml'
-  places = YAML.load_file(places_yaml).map do |city,city_config|
+  places_yaml = YAML.load_file ENV['PLACE_CONFIG']||'./config/places.yaml'
+  places = places_yaml.map do |city,city_config|
     city_config.map do |neighborhood,place_config|
       place_config.map do |name,attrs|
-        puts name
+        puts "Place::#{city}::#{neighborhood}::#{name}"
         attrs.symbolize_keys!
         attrs[:source] = 'Native'
         attrs.update name:name, city:city, neighborhood:neighborhood
@@ -14,10 +14,10 @@ ActiveRecord::Base.transaction do
     end.flatten
   end.flatten
 
-  trucks_yaml = ENV['TRUCK_CONFIG']||'./config/trucks.yaml'
-  trucks = YAML.load_file(trucks_yaml).map do |city,truck_config|
+  trucks_yaml = YAML.load_file ENV['TRUCK_CONFIG']||'./config/trucks.yaml'
+  trucks = trucks_yaml.sort.map do |city,truck_config|
     truck_config.map do |name,attrs|
-      puts name
+      puts "Truck::#{city}::#{name}"
       attrs.symbolize_keys!
       attrs[:source] = 'Native'
       attrs.update name:name, city:city

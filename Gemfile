@@ -3,13 +3,12 @@ source 'https://rubygems.org'
 
 gem 'engine', git:'git://github.com/amancevice/food-trucks-engine', branch:'master'
 gem 'rake'
-gem 'sinatra-activerecord', require:['sinatra/activerecord/rake']
+gem 'sinatra-activerecord', require:['sinatra/activerecord', 'sinatra/activerecord/rake']
 
-group :development do
-  gem 'pry'
+group :development, :docker do
   gem 'sqlite3'
 end
 
-group :production do
+group :heroku do
   gem 'pg'
 end

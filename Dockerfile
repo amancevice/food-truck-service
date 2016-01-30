@@ -6,8 +6,13 @@ ENV PLACE_CONFIG=/root/config/places.yaml \
 
 WORKDIR /root
 
-COPY Gemfile config.ru config /root/
+COPY Gemfile /root/
+RUN bundle install --without heroku
 
-RUN bundle install
+COPY config/ /root/config/
+COPY config.ru Rakefile /root/
+COPY db/ db/
+
+RUN bundle exec rake db:migrate db:seed
 
 ENTRYPOINT [ "bundle", "exec", "rackup" ]
