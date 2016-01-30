@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/amancevice/food-trucks-engine
-  revision: 6354fa17dc12e8c4b56e470fd57407268ded3890
+  revision: fcaa706480439246c701001b9efc0ac6754318b9
   branch: master
   specs:
     engine (0.0.1)

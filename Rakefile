@@ -10,9 +10,10 @@ namespace :firebase do
 
     source = YAML.load_file ENV['SOURCE_YAML']||'./config/sources.yaml'
     response = source.map do |x|
+      puts x
       x.symbolize_keys!
       klass = x[:class]&.constantize
-      Engine.process klass&.new(x.reject{|k,v| k == :class }).response
+      Engine.process! klass&.new(x.reject{|k,v| k == :class }).response
     end.flatten
 
     firedata = response.map do |x|
