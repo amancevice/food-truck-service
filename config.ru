@@ -1,6 +1,9 @@
 load 'Rakefile'
 
-Rake::Task['db:reset'].invoke
+while !Rake::Task['db:rollback'].invoke.nil?
+  Rake::Task['db:migrate'].invoke
+  Rake::Task['db:seed'].invoke
+end
 
 class Service < Engine::Server
   get '/' do
