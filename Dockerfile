@@ -12,6 +12,7 @@ RUN bundle install --without heroku
 
 COPY config/ /root/config/
 COPY config.ru Rakefile /root/
+COPY db/migrate db/migrate
 COPY db/schema.rb db/seeds.rb db/
 
 ENTRYPOINT [ "bundle", "exec", "rackup" ]
