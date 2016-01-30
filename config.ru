@@ -1,4 +1,7 @@
 load 'Rakefile'
+require "rack-timeout"
+use Rack::Timeout
+Rack::Timeout.timeout = 500
 
 while !Rake::Task['db:rollback'].invoke.nil?
   Rake::Task['db:migrate'].invoke
