@@ -13,12 +13,23 @@ namespace :firebase do
       host:ENV['FOOD_TRUCKS_HOST'],
       port:ENV['FOOD_TRUCKS_PORT'],
       path:ENV['FOOD_TRUCKS_PATH'])
-    response = source.map{|x| client.get x }.flatten
-    ref.set response.map{|x|
+    response = source.map do |x|
+      begin
+        client.get x
+      rescue JSON::ParserError => e
+        puts x
+        []
+      end
+    end.flatten
+
+    firedata = response.map do |x|
       day = Time.parse(x['start']).strftime '%A'
       Meal.between(start:x['start'], stop:x['stop']).map do |meal|
-        { day => { meal => { Digest::SHA1.hexdigest(x.to_s) => x }}}
+        x.update day:day, meal:meal
+        { Digest::SHA1.hexdigest(x.to_s) => x }
       end
-    }.flatten.reduce(&:deep_merge)
+    end.flatten.reduce(&:deep_merge)
+
+    ref.set firedata
   end
 end
