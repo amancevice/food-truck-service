@@ -9,19 +9,15 @@ namespace :firebase do
     ref = Bigbertha::Ref.new ENV['FIREBASE_HOME'], tkn
 
     source = YAML.load_file ENV['SOURCE_YAML']||'./config/sources.yaml'
-    client = Engine::Client.new(
-      host:ENV['FOOD_TRUCKS_HOST'],
-      port:ENV['FOOD_TRUCKS_PORT'],
-      path:ENV['FOOD_TRUCKS_PATH'])
     response = source.map do |x|
       x.symbolize_keys!
       klass = x[:class]&.constantize
-      klass&.new(x.reject{|k,v| k == :class }).process
+      Engine.process klass&.new(x.reject{|k,v| k == :class }).response
     end.flatten
 
     firedata = response.map do |x|
-      day = Time.parse(x['start']).strftime '%A'
-      Meal.between(start:x['start'], stop:x['stop']).map do |meal|
+      day = Time.parse(x[:start]).strftime '%A'
+      Meal.between(start:x[:start], stop:x[:stop]).map do |meal|
         x.update day:day, meal:meal
         { Digest::SHA1.hexdigest(x.to_s) => x }
       end
