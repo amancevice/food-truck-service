@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/amancevice/food-trucks-engine
-  revision: c95ca086da0053faa3cefb3c0736adfa276d4570
+  revision: 13d5212533fba66102b15afe8fcba96f166d915f
   branch: master
   specs:
     engine (0.0.1)
@@ -38,12 +38,13 @@ GEM
       values (~> 1.5.0)
     builder (3.2.2)
     chronic (0.10.2)
+    coderay (1.1.0)
     ethon (0.8.1)
       ffi (>= 1.3.0)
     fattr (2.2.2)
     ffi (1.9.10)
     firebase_token_generator (1.0.3)
-    geocoder (1.2.14)
+    geocoder (1.3.0)
     i18n (0.7.0)
     json (1.8.3)
     main (5.2.0)
@@ -52,11 +53,16 @@ GEM
       fattr (>= 2.2.0)
       map (>= 5.1.0)
     map (6.3.0)
+    method_source (0.8.2)
     minitest (5.8.4)
     oga (2.0.0)
       ast
       ruby-ll (~> 2.1)
     pg (0.18.4)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -72,6 +78,7 @@ GEM
     sinatra-activerecord (2.0.9)
       activerecord (>= 3.2)
       sinatra (~> 1.0)
+    slop (3.6.0)
     sqlite3 (1.3.11)
     thread_safe (0.3.5)
     tilt (2.0.2)
@@ -88,6 +95,7 @@ DEPENDENCIES
   bigbertha
   engine!
   pg
+  pry
   rack-timeout
   rake
   sinatra-activerecord

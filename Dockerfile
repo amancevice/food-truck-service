@@ -9,7 +9,7 @@ ENV PLACE_CONFIG=/root/config/places.yaml \
 WORKDIR /root
 
 COPY Gemfile /root/
-RUN bundle install --without heroku
+RUN bundle install --without development heroku
 
 COPY config/ /root/config/
 COPY config.ru Rakefile /root/
