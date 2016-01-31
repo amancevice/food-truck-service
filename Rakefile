@@ -11,19 +11,20 @@ namespace :firebase do
       klass = x[:class]&.constantize
       payload = klass&.new(x.reject{|k,v| k == :class }).response
       Engine.process!(payload).map do |args, place, truck|
-        args.merge(truck.to_h)
-          .merge(place.to_h)
-          .merge(source:args[:source])
-      end
+        day = Time.parse(args[:start]).strftime '%A'
+        Meal.between(start:args[:start], stop:args[:stop]).map do |meal|
+          item = args.merge(truck.to_h)
+            .merge(place.to_h)
+            .merge(source:args[:source], day:day, meal:meal)
+          item[:sha1] = Digest::SHA1.hexdigest item.to_s
+          item
+        end
+      end.flatten
     end.flatten
 
     firedata = response.map do |x|
-      day = Time.parse(x[:start]).strftime '%A'
-      Meal.between(start:x[:start], stop:x[:stop]).map do |meal|
-        x.update day:day, meal:meal
-        { Digest::SHA1.hexdigest(x.to_s) => x }
-      end
-    end.flatten.reduce(&:deep_merge)
+      { x[:sha1] => x.reject{|k,v| k == :sha1 } }
+    end.flatten.reduce(&:merge)
 
     gen = Firebase::FirebaseTokenGenerator.new ENV['FIREBASE_SECRET']
     tkn = gen.create_token user:ENV['FIREBASE_USER']
