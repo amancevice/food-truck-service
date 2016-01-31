@@ -11,12 +11,14 @@ end
 class Service < Engine::Server
   get '/' do
     content_type :json
-    handle_get params
+    params[:response] = handle_get params
+    params.to_json
   end
 
   post '/' do
     content_type :json
-    handle_post params
+    response = handle_post params
+    { response:response }.to_json
   end
 end
 
