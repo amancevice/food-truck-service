@@ -1,9 +1,11 @@
 ruby '2.3.0'
 source 'https://rubygems.org'
 
-gem 'bigbertha', require: ['bigbertha', 'firebase_token_generator']
 gem 'engine', git:'git://github.com/amancevice/food-trucks-engine', branch:'master'
-gem "rack-timeout", require:'rack/timeout/base'
+#gem 'engine', path:'../food-trucks-engine'
+
+gem 'bigbertha',            require: ['bigbertha', 'firebase_token_generator']
+gem "rack-timeout",         require:'rack/timeout/base'
 gem 'rake'
 gem 'sinatra-activerecord', require:['sinatra/activerecord', 'sinatra/activerecord/rake']
 
