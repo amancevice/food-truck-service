@@ -49,3 +49,22 @@ Boston:
   Wow Barbecue:
     patterns:
       - (?i-mx:Wow Barbeque)
+Vancouver:
+  Dog House:
+    patterns:
+        - (?i-mx:The Dog House)
+  J Brûlée:
+    patterns:
+        - (?i-mx:J Brulee)
+  K & J:
+    patterns:
+        - (?i-mx:K & J Food Truck)
+  Local Omnivore:
+    patterns:
+        - (?i-mx:The Local Omnivore)
+  Taters:
+    patterns:
+        - (?i-mx:Taters - The Baked Potato Co.)
+  Yolk's Breakfast:
+    patterns:
+        - (?i-mx:Yolk's Breakfast Street Meet Truck)
