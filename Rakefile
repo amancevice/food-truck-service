@@ -10,16 +10,7 @@ namespace :firebase do
       puts x
       klass = x[:class]&.constantize
       payload = klass&.new(x.reject{|k,v| k == :class }).response
-      Engine.process!(payload).map do |args, place, truck|
-        day = Time.parse(args[:start]).strftime '%A'
-        Meal.between(start:args[:start], stop:args[:stop]).map do |meal|
-          item = args.merge(truck.to_h)
-            .merge(place.to_h)
-            .merge(source:args[:source], day:day, meal:meal)
-          item[:sha1] = Digest::SHA1.hexdigest item.to_s
-          item
-        end
-      end.flatten
+      Engine.process!(payload)
     end.flatten
 
     firedata = response.map do |x|
