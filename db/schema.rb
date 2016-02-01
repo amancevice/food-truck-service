@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 20160129030321) do
     t.string "type"
   end
 
+  add_index "places", ["latitude", "longitude"], name: "index_places_on_latitude_and_longitude"
+
   create_table "trucks", force: :cascade do |t|
     t.string "city"
     t.string "name"
