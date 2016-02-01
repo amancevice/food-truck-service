@@ -15,5 +15,6 @@ COPY config/ /root/config/
 COPY config.ru Rakefile /root/
 COPY db/migrate db/migrate
 COPY db/schema.rb db/seeds.rb db/
+RUN bundle exec rake db:setup
 
 ENTRYPOINT [ "bundle", "exec", "rackup" ]
