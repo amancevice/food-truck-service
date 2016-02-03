@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20160129030321) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "patterns", force: :cascade do |t|
     t.integer "place_id"
     t.integer "truck_id"
@@ -34,7 +37,7 @@ ActiveRecord::Schema.define(version: 20160129030321) do
     t.string "type"
   end
 
-  add_index "places", ["latitude", "longitude"], name: "index_places_on_latitude_and_longitude"
+  add_index "places", ["latitude", "longitude"], name: "index_places_on_latitude_and_longitude", using: :btree
 
   create_table "trucks", force: :cascade do |t|
     t.string "city"
