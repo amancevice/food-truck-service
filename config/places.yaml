@@ -5,6 +5,7 @@ Boston:
       type      : Address
       latitude  : 42.359921
       longitude : -71.149558
+      timezone  : US/Eastern
       number    : 1550
       street    : Soldiers Field
       patterns  :
@@ -13,6 +14,7 @@ Boston:
       type      : Intersection
       latitude  : 42.349696
       longitude : -71.106702
+      timezone  : US/Eastern
       main      : Commonwealth
       cross     : St Marys
       patterns  :
@@ -21,16 +23,19 @@ Boston:
       type      : Landmark
       latitude  : 42.33598
       longitude : -71.15155
+      timezone  : US/Eastern
     Boston University Bridge:
       type      : Landmark
       latitude  : 42.350969
       longitude : -71.11272099999999
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:BU Bridge)
     Boston University West:
       type      : Landmark
       latitude  : 42.350933
       longitude : -71.112689
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:B\.?U\.? West)
         - (?i-mx:855 Commonwealth)
@@ -38,12 +43,14 @@ Boston:
       type      : Landmark
       latitude  : 42.350301
       longitude : -71.105982
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:BU\/brookline)
     Boston University East:
       type      : Landmark
       latitude  : 42.34922
       longitude : -71.101553
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:B\.?U\.? East)
         - (?i-mx:Boston University at Morse Auditorium on Commonwealth Ave)
@@ -52,6 +59,7 @@ Boston:
       type      : Intersection
       latitude  : 42.3515115
       longitude : -71.1182622
+      timezone  : US/Eastern
       main      : Commonwealth
       cross     : Pleasant
   Back Bay:
@@ -59,6 +67,7 @@ Boston:
       type      : Landmark
       latitude  : 42.349696
       longitude : -71.078614
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Copley Square West)
         - (?i-mx:Boylston St @ BPL)
@@ -68,6 +77,7 @@ Boston:
       type      : Intersection
       latitude  : 42.35109708
       longitude : -71.07542524
+      timezone  : US/Eastern
       main      : Clarendon
       cross     : Public Alley 439
       patterns  :
@@ -76,6 +86,7 @@ Boston:
       type      : Intersection
       latitude  : 42.3499676
       longitude : -71.07483057
+      timezone  : US/Eastern
       main      : Clarendon
       cross     : Newbury
       patterns  :
@@ -85,6 +96,7 @@ Boston:
       type      : Intersection
       latitude  : 42.351002
       longitude : -71.075451
+      timezone  : US/Eastern
       main      : Clarendon
       cross     : Boylston
       patterns  :
@@ -97,6 +109,7 @@ Boston:
       type      : Intersection
       latitude  : 42.348506
       longitude : -71.07558899999999
+      timezone  : US/Eastern
       main      : Stuart
       cross     : Trinity
       patterns  :
@@ -107,6 +120,7 @@ Boston:
       type      : Intersection
       latitude  : 42.3483035
       longitude : -71.0764342
+      timezone  : US/Eastern
       main      : Stuart
       cross     : Dartmouth
       patterns  :
@@ -115,6 +129,7 @@ Boston:
       type      : Intersection
       latitude  : 42.34954189
       longitude : -71.07221108
+      timezone  : US/Eastern
       main      : Stuart
       cross     : Berkeley
       patterns  :
@@ -124,6 +139,7 @@ Boston:
       type      : Intersection
       latitude  : 42.345558
       longitude : -71.082319
+      timezone  : US/Eastern
       main      : Huntington
       cross     : Belvidere
       patterns  :
@@ -135,6 +151,7 @@ Boston:
       type      : Landmark
       latitude  : 42.345644
       longitude : -71.08250269
+      timezone  : US/Eastern
       patterns  :
       - (?i-mx:Christian Science .*? Fountain)
   Bay Village: {}
@@ -144,21 +161,25 @@ Boston:
       type      : Intersection
       latitude  : 42.3370071
       longitude : -71.1450084
+      timezone  : US/Eastern
       main      : Beacon
       cross     : Englewood
     Brookline Village:
       type      : Landmark
       latitude  : 42.33226817
       longitude : -71.11594028
+      timezone  : US/Eastern
     Brookline High School:
       type      : Landmark
       latitude  : 42.33261134
       longitude : -71.1284861
+      timezone  : US/Eastern
   Burlington:
     99 South Bedford St:
       type      : Address
       latitude  : 42.48339943
       longitude : -71.19388278
+      timezone  : US/Eastern
       number    : 99
       street    : South Bedford
       patterns  :
@@ -168,6 +189,7 @@ Boston:
       type      : Address
       latitude  : 42.39443623
       longitude : -71.14547464
+      timezone  : US/Eastern
       number    : 36
       street    : Cambridge Park
       patterns  :
@@ -176,16 +198,19 @@ Boston:
       type      : Address
       latitude  : 42.39523347
       longitude : -71.14324302
+      timezone  : US/Eastern
       number    : 87
       street    : Cambridge Park
     Alewife:
       type      : Landmark
       latitude  : 42.39395409
       longitude : -71.14360297
+      timezone  : US/Eastern
     Harvard University:
       type      : Landmark
       latitude  : 42.37559323
       longitude : -71.11642358
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Oxford.*?Kirkland)
         - (?i-mx:Harvard Yard)
@@ -193,43 +218,51 @@ Boston:
       type      : Landmark
       latitude  : 42.3628741
       longitude : -71.0900971
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Kendall)
     Cambridge Winter Farmers Market:
       type      : Event
       latitude  : 42.36551861
       longitude : -71.1111432
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Cambrige Winter Farmers Market)
     Discovery Park:
       type      : Landmark
       latitude  : 42.39860522
       longitude : -71.14913503
+      timezone  : US/Eastern
     Greenway Open Market:
       type      : Event
       latitude  : 42.37682631
       longitude : -71.11769692999999
+      timezone  : US/Eastern
   Charlestown:
     Navy Yard:
       type      : Landmark
       latitude  : 42.374417
       longitude : -71.05501099999999
+      timezone  : US/Eastern
   Chestnut Hill:
     Cassidy Park:
       type      : Landmark
       latitude  : 42.33598377
       longitude : -71.15156598999999
+      timezone  : US/Eastern
   Chinatown:
     Boylston St & Washington St:
       type      : Intersection
       latitude  : 42.35235
       longitude : -71.06281
+      timezone  : US/Eastern
       main      : Boylston
       cross     : Washington
     Chinatown Gate:
       type      : Landmark
       latitude  : 42.35107615
       longitude : -71.059625
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Chinatown Park)
         - (?i-mx:China Town Gate)
@@ -239,6 +272,7 @@ Boston:
       type      : Landmark
       latitude  : 42.284652
       longitude : -71.064489
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Ashmont T?)
   Downtown:
@@ -246,6 +280,7 @@ Boston:
       type      : Landmark
       latitude  : 42.359747
       longitude : -71.057401
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:City Hall)
         - (?i-mx:City Sq(are)?)
@@ -253,6 +288,7 @@ Boston:
       type      : Landmark
       latitude  : 42.3587087
       longitude : -71.0521236
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Aquarium)
         - (?i-mx:Milk .*?Greenway)
@@ -265,6 +301,7 @@ Boston:
       type      : Landmark
       latitude  : 42.356691
       longitude : -71.051099
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Rhowe'?s Wh?arf)
         - (?i-mx:Rowe'?s Wh?arf)
@@ -279,18 +316,21 @@ Boston:
       type      : Landmark
       latitude  : 42.35294674
       longitude : -71.05603153
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Dewey)
     Milk St & Kilby St:
       type      : Intersection
       latitude  : 42.35756
       longitude : -71.05511
+      timezone  : US/Eastern
       main      : Milk
       cross     : Kilby
     Park Street Station:
       type      : Landmark
       latitude  : 42.3564234
       longitude : -71.0618815
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Park St(reet)?)
         - (?i-mx:Brewer Fountain)
@@ -298,12 +338,14 @@ Boston:
       type      : Intersection
       latitude  : 42.35609
       longitude : -71.05489
+      timezone  : US/Eastern
       main      : Pearl
       cross     : Franklin
     Rose Kennedy Greenway @ Congress St:
       type      : Landmark
       latitude  : 42.353916
       longitude : -71.0539043
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Kennedy .*?Congress)
         - (?i-mx:Congress .*?Kennedy)
@@ -313,6 +355,7 @@ Boston:
       type      : Landmark
       latitude  : 42.3544698
       longitude : -71.0525624
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Greenway, Echelman Sculpture at Oliver St)
         - (?i-mx:Greenway, Fort Point Park)
@@ -321,6 +364,7 @@ Boston:
       type      : Landmark
       latitude  : 42.3689227
       longitude : -71.0398415
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Maverick Sq(uare)?)
   Everett:
@@ -328,17 +372,20 @@ Boston:
       type      : Landmark
       latitude  : 42.38459524
       longitude : -70.99852797
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:135 Santilli Hway Everett)
     Night Shift Brewery:
       type    : Landmark
       latitude  : 42.40579475
       longitude : -71.06716004
+      timezone  : US/Eastern
   Fenway-Kenmore:
     Huntington Ave & Opera Pl:
       type      : Intersection
       latitude  : 42.340307
       longitude : -71.088967
+      timezone  : US/Eastern
       main      : Huntington
       cross     : Opera
       patterns  :
@@ -348,6 +395,7 @@ Boston:
       type      : Landmark
       latitude  : 42.339807
       longitude : -71.089172
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:716 Columbus Ave)
   Framingham:
@@ -355,11 +403,13 @@ Boston:
       type      : Landmark
       latitude  : 42.30257075
       longitude : -71.43472128000001
+      timezone  : US/Eastern
   Jamaica Plain:
     Loring Geenough House:
       type      : Landmark
       latitude  : 42.37682631
       longitude : -71.11769692999999
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:12 South St)
         - (?i-mx:Loring-Greenough)
@@ -367,29 +417,34 @@ Boston:
       type      : Event
       latitude  : 42.313539
       longitude : -71.103587
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Egleston Farmer'?s Market)
     Arnold Arboretum:
       type      : Landmark
       latitude  : 42.30826372
       longitude : -71.11998283
+      timezone  : US/Eastern
   Hyde Park: {}
   Lexington:
     Hartwell Ave:
       type      : Landmark
       latitude  : 42.465734
       longitude : -71.26382599999999
+      timezone  : US/Eastern
   Malden:
     Malden Center:
       type      : Landmark
       latitude  : 42.426715
       longitude : -71.07407000000001
+      timezone  : US/Eastern
   Mattapan: {}
   Mission Hill:
     Longwood Ave & Blackfan Cir:
       type      : Intersection
       latitude  : 42.3390815
       longitude : -71.1057846
+      timezone  : US/Eastern
       main      : Longwood
       cross     : Blackfan
       patterns  :
@@ -398,6 +453,7 @@ Boston:
       type      : Intersection
       latitude  : 42.336928
       longitude : -71.103054
+      timezone  : US/Eastern
       main      : Longwood
       cross     : Louis Pasteur
       patterns  :
@@ -407,17 +463,20 @@ Boston:
       type      : Landmark
       latitude  : 42.329524
       longitude : -71.106881
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Baptist Hospital)
     Children's Hospital:
       type      : Landmark
       latitude  : 42.33767173
       longitude : -71.1051068
+      timezone  : US/Eastern
   Natick:
     Belkin Family Lookout Farm:
       type      : Landmark
       latitude  : 42.263066
       longitude : -71.309126
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Lookout Farm)
   Needham:
@@ -425,11 +484,13 @@ Boston:
       type      : Landmark
       latitude  : 42.281331
       longitude : -71.237541
+      timezone  : US/Eastern
   Newton:
     Route 9 & Elliot St:
       type      : Intersection
       latitude  : 42.3187859
       longitude : -71.2125276
+      timezone  : US/Eastern
       main      : Route 9
       cross     : Elliot
       patterns  :
@@ -439,6 +500,7 @@ Boston:
       type      : Intersection
       latitude  : 42.336096
       longitude : -71.1786085
+      timezone  : US/Eastern
       main      : Commonwealth
       cross     : Hammond
       patterns  :
@@ -447,17 +509,20 @@ Boston:
       type      : Landmark
       latitude  : 42.31209951
       longitude : -71.21215934
+      timezone  : US/Eastern
   North End:
     Greenway Carousel:
       type      : Landmark
       latitude  : 42.360557
       longitude : -71.0527183
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:\ACarousel\z)
     Cross St & Hanover St:
       type      : Intersection
       latitude  : 42.3625098
       longitude : -71.055716
+      timezone  : US/Eastern
       main      : Cross
       cross     : Hanover
   North Andover:
@@ -465,20 +530,24 @@ Boston:
       type      : Landmark
       latitude  : 42.667705
       longitude : -71.122571
+      timezone  : US/Eastern
   Roslindale: {}
   Roxbury:
     Boston Police Headquarters:
       type      : Landmark
       latitude  : 42.3341758
       longitude : -71.0929667
+      timezone  : US/Eastern
     Dudley Square:
       type      : Landmark
       latitude  : 42.329781
       longitude : -71.084763
+      timezone  : US/Eastern
     Hampden St & Kemble St:
       type      : Intersection
       latitude  : 42.3298404
       longitude : -71.0749273
+      timezone  : US/Eastern
       main      : Hampden
       cross     : Kemble
       patterns  :
@@ -489,29 +558,34 @@ Boston:
       street    : Southampton
       latitude  : 42.3309981
       longitude : -71.06645245
+      timezone  : US/Eastern
   Somerville:
     Aeronaut Brewing Company:
       type      : Landmark
       latitude  : 42.381869
       longitude : -71.10563
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Aeronaut Brewery)
     Assembly Square:
       type      : Landmark
       latitude  : 42.37682631
       longitude : -71.11769692999999
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Assembly Row - Somerville)
     Taza Chocolate:
       type      : Landmark
       latitude  : 42.37582537
       longitude : -71.09399062999999
+      timezone  : US/Eastern
   South Boston: {}
   South End:
     SoWa Open Market:
       type      : Event
       latitude  : 42.342531
       longitude : -71.065299
+      timezone  : US/Eastern
       patterns  :
         - !ruby/regexp /SOWA/
         - !ruby/regexp /SoWa/
@@ -519,10 +593,12 @@ Boston:
       type      : Landmark
       latitude  : 42.34384
       longitude : -71.06717
+      timezone  : US/Eastern
     Boston Medical Center:
       type      : Landmark
       latitude  : 42.336673
       longitude : -71.073097
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:BU Medical Center)
         - (?i-mx:Harrison .*? East Concord)
@@ -531,17 +607,20 @@ Boston:
       type      : Address
       latitude  : 42.386903
       longitude : -71.2016739
+      timezone  : US/Eastern
       number    : 411
       street    : Waverley Oaks
     Constant Contact:
       type      : Landmark
       latitude  : 42.41700333
       longitude : -71.25854551
+      timezone  : US/Eastern
   Waterfront:
     23 Drydock Ave:
       type      : Address
       latitude  : 42.3448104
       longitude : -71.0303901
+      timezone  : US/Eastern
       number    : 23
       street    : Drydock
       patterns  :
@@ -550,12 +629,14 @@ Boston:
       type      : Landmark
       latitude  : 42.344664
       longitude : -71.0343386
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Innovation .*? Design)
     Seaport Blvd & Thomson Pl:
       type      : Intersection
       latitude  : 42.35219
       longitude : -71.04658999999999
+      timezone  : US/Eastern
       main      : Seaport
       cross     : Thomson
       patterns  :
@@ -566,12 +647,14 @@ Boston:
       type      : Landmark
       latitude  : 42.344208
       longitude : -71.037705
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:MarineIndustrial)
     Courthouse:
       type      : Landmark
       latitude  : 42.35266805
       longitude : -71.04781814
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:Courthouse Station)
   Watertown:
@@ -579,6 +662,7 @@ Boston:
       type      : Landmark
       latitude  : 42.360476
       longitude : -71.16316164
+      timezone  : US/Eastern
       patterns  :
         - (?i-mx:440 Talcott Ave)
         - (?i-mx:Commanders Mansion)
@@ -586,15 +670,18 @@ Boston:
       type      : Landmark
       latitude  : 42.3620141
       longitude : -71.15756118
+      timezone  : US/Eastern
     Athena Health:
       type      : Landmark
       latitude  : 42.36237095
       longitude : -71.16495262
+      timezone  : US/Eastern
   West End:
     Blossom St & Emerson Pl:
       type      : Intersection
       latitude  : 42.36444
       longitude : -71.06863
+      timezone  : US/Eastern
       main      : Blossom
       cross     : Emerson
       patterns  :
@@ -604,6 +691,7 @@ Boston:
       type      : Intersection
       latitude  : 42.3612953
       longitude : -71.0628689
+      timezone  : US/Eastern
       main      : Cambridge
       cross     : New Chardon
       patterns  :
@@ -615,12 +703,14 @@ Boston:
       type      : Landmark
       latitude  : 42.26762314
       longitude : -71.81769022
+      timezone  : US/Eastern
 Vancouver:
   Abbotsford:
     Abbotsford Exhibition Park:
       type      : Landmark
       latitude  : 49.06646099
       longitude : -122.32504888
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:32470 Haida Drive Abbotsford)
   Arbutus-Ridge:
@@ -628,11 +718,13 @@ Vancouver:
       type      : Landmark
       latitude  : 49.25736755
       longitude : -123.17059156
+      timezone  : US/Pacific
   Burnaby:
     Burnaby Lake Rowing Pavillion:
       type      : Landmark
       latitude  : 49.2451852
       longitude : -122.92286715
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Burnaby Lake Rowing pavillion)
   Chilliwack:
@@ -640,11 +732,13 @@ Vancouver:
       type      : Landmark
       latitude  : 49.13801631
       longitude : -121.89400042
+      timezone  : US/Pacific
   Cloverdale:
     Cloverdale Rodeo:
       type      : Event
       latitude  : 49.111946
       longitude : -122.734529
+      timezone  : US/Pacific
   Commercial Drive:
     East 7th Ave & Commercial Dr:
       type      : Intersection
@@ -652,6 +746,7 @@ Vancouver:
       cross     : Commercial
       latitude  : 49.26409255
       longitude : -123.06968029
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Commercial .*? 7th)
         - (?i-mx:7th .*? Commercial)
@@ -662,6 +757,7 @@ Vancouver:
       cross     : Grant
       latitude  : 49.2712863
       longitude : -123.0695676
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:1510 commercial drive)
         - (?i-mx:Commercial .*? Grant)
@@ -670,6 +766,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.2622021
       longitude : -123.07067401
+      timezone  : US/Pacific
   Downtown:
     Beatty St & Dunsmuir St:
       type      : Intersection
@@ -677,12 +774,14 @@ Vancouver:
       cross     : Dunsmuir
       latitude  : 49.2798502
       longitude : -123.1105849
+      timezone  : US/Pacific
     Burrard St & Canada Way:
       type      : Intersection
       main      : Burrard
       cross     : Canada
       latitude  : 49.2881421
       longitude : -123.1154926
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Burrard .*? Canada Way)
         - (?i-mx:Canaday Way .*? Burrard)
@@ -692,6 +791,7 @@ Vancouver:
       cross     : Dunsmuir
       latitude  : 49.2855457
       longitude : -123.1193954
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Burrard .*? Dunsmuir)
         - (?i-mx:Dunsmuir .*? Burrard)
@@ -701,6 +801,7 @@ Vancouver:
       cross     : Robson
       latitude  : 49.2832949
       longitude : -123.1228016
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Burrard .*? Robson)
         - (?i-mx:Robson .*? Burrard)
@@ -710,6 +811,7 @@ Vancouver:
       cross     : Hastings
       latitude  : 49.2871235
       longitude : -123.1170166
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Burrard .*? Hastings)
         - (?i-mx:Hastings .*? Burrard)
@@ -719,6 +821,7 @@ Vancouver:
       cross     : Pender
       latitude  : 49.2865925
       longitude : -123.117793
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Burrard .*? Pender)
         - (?i-mx:Pender .*? Burrard)
@@ -728,6 +831,7 @@ Vancouver:
       cross     : Thurlow
       latitude  : 49.2883355
       longitude : -123.1191713
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Cordova .*? Thurlow)
         - (?i-mx:Thurlow .*? Cordova)
@@ -735,12 +839,14 @@ Vancouver:
       type      : Landmark
       latitude  : 49.272325
       longitude : -123.124865
+      timezone  : US/Pacific
     Expo Blvd & Abbott St:
       type      : Intersection
       main      : Expo
       cross     : Abbott
       latitude  : 49.2786163
       longitude : -123.1076226
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Expo .*? Abbott?)
         - (?i-mx:Abbott? .*? Expo)
@@ -750,6 +856,7 @@ Vancouver:
       cross     : Dunsmuir
       latitude  : 49.28357354
       longitude : -123.1163047
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Granville .*? Dunsmuir)
         - (?i-mx:Dunsmuir .*? Granville)
@@ -761,6 +868,7 @@ Vancouver:
       cross     : Robson
       latitude  : 49.281358
       longitude : -123.119829
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Granville .*? Robson)
         - (?i-mx:Robson .*? Granville)
@@ -770,6 +878,7 @@ Vancouver:
       cross     : Abbott
       latitude  : 49.282058
       longitude : -123.10710422
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Gastown Brunch Crawl)
     Hamilton St & Georgia St:
@@ -778,6 +887,7 @@ Vancouver:
       cross     : Georgia
       latitude  : 49.2799628
       longitude : -123.1142285
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Hamilton .*? Georgia)
         - (?i-mx:Georgia .*? Hamilton)
@@ -787,6 +897,7 @@ Vancouver:
       cross     : Dunsmuir
       latitude  : 49.2810942
       longitude : -123.1125113
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:600 Hamilton)
         - (?i-mx:Hamilton .*? Dunsimuir)
@@ -797,6 +908,7 @@ Vancouver:
       cross     : Dunsmuir
       latitude  : 49.2842709
       longitude : -123.1173941
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Howe .*? Dunsimuir)
         - (?i-mx:Howe .*? Dunsmuir)
@@ -807,6 +919,7 @@ Vancouver:
       cross     : Cordova
       latitude  : 49.2866174
       longitude : -123.1138591
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Howe .*? Cordova)
         - (?i-mx:Cordova .*? Howe)
@@ -816,6 +929,7 @@ Vancouver:
       cross     : Georgia
       latitude  : 49.2831379
       longitude : -123.1191186
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Howe .*? Georgia)
         - (?i-mx:Georgia .*? Howe)
@@ -825,6 +939,7 @@ Vancouver:
       cross     : Davie
       latitude  : 49.2740355
       longitude : -123.1214823
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Pacific .*? Davie)
         - (?i-mx:Davie .*? Pacific)
@@ -834,6 +949,7 @@ Vancouver:
       cross     : Howe
       latitude  : 49.2820134
       longitude : -123.1208172
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Robson .*? Howe)
         - (?i-mx:Howe .*? Robson)
@@ -841,22 +957,26 @@ Vancouver:
       type      : Landmark
       latitude  : 49.27854316
       longitude : -123.10819253
+      timezone  : US/Pacific
     Roundhouse Community Centre:
       type      : Landmark
       latitude  : 49.272936
       longitude : -123.122578
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Roundhouse Community)
     The Media Club:
       type      : Landmark
       latitude  : 49.279753
       longitude : -123.113024
+      timezone  : US/Pacific
     Cordova St & Thurlow St:
       type      : Intersection
       main      : Cordova
       cross     : Thurlow
       latitude  : 49.2883355
       longitude : -123.1191713
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Cordova .*? Thurlow)
         - (?i-mx:Thurlow .*? Cordova)
@@ -866,6 +986,7 @@ Vancouver:
       cross     : Seymour
       latitude  : 49.2853394
       longitude : -123.1118689
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Cordova .*? Seymour)
         - (?i-mx:Seymour .*? Cordova)
@@ -875,6 +996,7 @@ Vancouver:
       cross     : Hornby
       latitude  : 49.28377
       longitude : -123.1200913
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Georgia .*? Hornby)
         - (?i-mx:Hornby .*? Georgia)
@@ -884,6 +1006,7 @@ Vancouver:
       cross     : Burrard
       latitude  : 49.2844243
       longitude : -123.1210984
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Georgia .*? Burrard)
         - (?i-mx:Burrard .*? Georgia)
@@ -893,6 +1016,7 @@ Vancouver:
       cross     : Granville
       latitude  : 49.2824942
       longitude : -123.1181228
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Georgia .*? Granville)
         - (?i-mx:Granville .*? Georgia)
@@ -902,10 +1026,12 @@ Vancouver:
       cross     : Seymour
       latitude  : 49.2818662
       longitude : -123.11691607
+      timezone  : US/Pacific
     Vancouver Art Gallery:
       type      : Landmark
       latitude  : 49.282961
       longitude : -123.120472
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Street Food City .*? Art Gallery)
         - (?i-mx:Street food city .*? Art Gallery)
@@ -918,6 +1044,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.275776
       longitude : -123.132397
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Longtable Distillery)
     West Hastings St & Thurlow St:
@@ -926,6 +1053,7 @@ Vancouver:
       cross     : Thurlow
       latitude  : 49.28785741
       longitude : -123.11940256
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Hastings .*? Thurlow)
         - (?i-mx:Thurlow .*? Hastings)
@@ -933,11 +1061,13 @@ Vancouver:
       type      : Landmark
       latitude  : 49.27279971
       longitude : -123.10210814
+      timezone  : US/Pacific
   Dunbar-Southlands:
     Camosun Park:
       type      : Landmark
       latitude  : 49.257189
       longitude : -123.200312
+      timezone  : US/Pacific
   Fairview:
     Cambie St & East 8th Ave:
       type      : Intersection
@@ -945,6 +1075,7 @@ Vancouver:
       cross     : East 8th
       latitude  : 49.2641129
       longitude : -123.1149375
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Cambie .*? 8th)
         - (?i-mx:Cambie .*? Eighth)
@@ -952,6 +1083,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.2715835
       longitude : -123.1062431
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Athlete'?s Village)
     West Broadway & Ash St:
@@ -960,6 +1092,7 @@ Vancouver:
       cross     : Ash
       latitude  : 49.2632618
       longitude : -123.1174951
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Broadway .*? Ash)
     West Broadway & Cambie St:
@@ -968,6 +1101,7 @@ Vancouver:
       cross     : Cambie
       latitude  : 49.2632359
       longitude : -123.1150281
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Broadway .*? Cambie)
         - (?i-mx:Cambie .*? Broadway)
@@ -977,6 +1111,7 @@ Vancouver:
       cross     : West Broadway
       latitude  : 49.26347553
       longitude : -123.13867629
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Granville & W\.? Broadway)
     Granville St & West 10th Ave:
@@ -985,6 +1120,7 @@ Vancouver:
       cross     : West 10th
       latitude  : 49.2617187
       longitude : -123.138627
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Granville .*? 10th)
         - (?i-mx:Granville .*? 10 )
@@ -996,6 +1132,7 @@ Vancouver:
       cross     : West 11th
       latitude  : 49.2617187
       longitude : -123.138627
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Granville .*? 11th)
         - (?i-mx:11th .*? Granville)
@@ -1005,12 +1142,14 @@ Vancouver:
       type      : Landmark
       latitude  : 49.2708321
       longitude : -123.1337753
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Grandville Island)
     Vanouver General Hospital:
       type      : Landmark
       latitude  : 49.262106
       longitude : -123.122406
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:VGH)
         - (?i-mx:Cancer Agency)
@@ -1019,11 +1158,13 @@ Vancouver:
       type      : Landmark
       latitude  : 49.28305
       longitude : -123.12435
+      timezone  : US/Pacific
   Grandview-Woodland:
     Parallel49 Brewery:
       type      : Landmark
       latitude  : 49.283906
       longitude : -123.064405
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:49 .*? Brew)
         - (?i-mx:Brew .*? 49)
@@ -1034,12 +1175,14 @@ Vancouver:
       type      : Landmark
       latitude  : 49.27762581
       longitude : -123.07442304
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:1488 Adanac)
     Odd Society Spirits:
       type      : Landmark
       latitude  : 49.28401973
       longitude : -123.06946435
+      timezone  : US/Pacific
   Hastings-Sunrise:
     East Broadway & Renfrew St:
       type      : Intersection
@@ -1047,6 +1190,7 @@ Vancouver:
       cross     : Renfrew
       latitude  : 49.2619648
       longitude : -123.0443071
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Broadway .*? Renfrew)
         - (?i-mx:Renfrew .*? Broadway)
@@ -1055,18 +1199,21 @@ Vancouver:
       type      : Landmark
       latitude  : 49.255531
       longitude : -123.068585
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:KNIT CITY)
     John Hendry Park:
       type      : Landmark
       latitude  : 49.256144
       longitude : -123.061522
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Jhon Hendry Park)
     Trout Lake Farmers Market:
       type      : Event
       latitude  : 49.25467877
       longitude : -123.06496235
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Trout Lake Farmer'?s Market)
         - (?i-mx:Farmer'?s Market .*? Trout Lake)
@@ -1078,20 +1225,24 @@ Vancouver:
       cross     : East
       latitude  : 49.23460899
       longitude : -123.15501762
+      timezone  : US/Pacific
     West 41st Ave & Yew St:
       type      : Intersection
       main      : West 41st
       cross     : Yew
       latitude  : 49.234616
       longitude : -123.157764
+      timezone  : US/Pacific
     Kerrisdale Arena:
       type      : Landmark
       latitude  : 49.23554821
       longitude : -123.15490573
+      timezone  : US/Pacific
     McCleery Golf Course:
       type      : Landmark
       latitude  : 49.223085
       longitude : -123.1662176
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:7025 Macdonald St)
   Killarney: {}
@@ -1102,6 +1253,7 @@ Vancouver:
       cross   : West 1st
       latitude  : 49.27065346
       longitude : -123.14578049
+      timezone  : US/Pacific
       patterns:
         - (?i-mx:Burrard & 1st)
     York Ave & Chestnut St:
@@ -1110,6 +1262,7 @@ Vancouver:
       cross     : Chestnut
       latitude  : 49.27138948
       longitude : -123.1464438
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Lululemon HQ)
     West 4th Ave & Yew St:
@@ -1118,6 +1271,7 @@ Vancouver:
       cross     : Yew
       latitude  : 49.2681826
       longitude : -123.1551591
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:W 4th Ave & Yew St)
     West 4th Ave & Vine St:
@@ -1126,6 +1280,7 @@ Vancouver:
       cross     : Vine
       latitude  : 49.2682096
       longitude : -123.1575029
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:W 4th \(Between Yew & Vine\))
     West 4th Ave & Burrard St:
@@ -1134,6 +1289,7 @@ Vancouver:
       cross     : Burrard
       latitude  : 49.26810609
       longitude : -123.1450635
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:W 4th .*? Burrard)
         - (?i-mx:Burrard .*? W 4th)
@@ -1141,10 +1297,12 @@ Vancouver:
       type      : Landmark
       latitude  : 49.27256167
       longitude : -123.15369683
+      timezone  : US/Pacific
     Kitsilano Farmers Market:
       type      : Event
       latitude  : 49.26167545
       longitude : -123.16237408
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Kitsilano Farmer'?s Market)
         - (?i-mx:Kits Farmers Market)
@@ -1155,30 +1313,35 @@ Vancouver:
       cross     : Cypress
       latitude  : 49.2724775
       longitude : -123.147793
+      timezone  : US/Pacific
     Cornwall Ave & Yew St:
       type      : Intersection
       main      : Cornwall
       cross     : Yew
       latitude  : 49.27235359
       longitude : -123.15500213
+      timezone  : US/Pacific
     West Broadway & Arbutus St:
       type      : Intersection
       main      : West Broadway
       cross     : Arbutus
       latitude  : 49.263783
       longitude : -123.1529284
+      timezone  : US/Pacific
     West Broadway & Maple St:
       type      : Intersection
       main      : West Broadway
       cross     : Maple
       latitude  : 49.26362734
       longitude : -123.15040198
+      timezone  : US/Pacific
     West 4th Ave & Maple St:
       type      : Intersection
       main      : West 4th
       cross     : Maple
       latitude  : 49.26801443
       longitude : -123.14958625
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:1968 4th Ave W. Vancouver)
         - (?i-mx:Patagonia)
@@ -1186,34 +1349,41 @@ Vancouver:
       type      : Landmark
       latitude  : 49.2683435
       longitude : -123.1681598
+      timezone  : US/Pacific
   Langly:
     Mommies And Munchkins Fair:
       type      : Landmark
       latitude  : 49.09155315
       longitude : -122.65719145
+      timezone  : US/Pacific
     George Preston Recreation Centre:
       type      : Landmark
       latitude  : 49.07841812
       longitude : -122.65113869
+      timezone  : US/Pacific
     Township 7 Vineyards & Winery:
       type      : Landmark
       latitude  : 49.031156
       longitude : -122.636436
+      timezone  : US/Pacific
   Maple Ridge:
     Outpost Liquor Store:
       type      : Landmark
       latitude  : 49.219983
       longitude : -122.55753
+      timezone  : US/Pacific
   Marpole: {}
   Mount Pleasant:
     False Creek Flats:
       type      : Landmark
       latitude  : 49.27123766
       longitude : -123.1138929
+      timezone  : US/Pacific
     33 Acres Brewing Co:
       type      : Landmark
       latitude  : 49.263999
       longitude : -123.105307
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:33 ?Acres)
         - (?i-mx:15 West 8th Ave)
@@ -1221,12 +1391,14 @@ Vancouver:
       type      : Landmark
       latitude  : 49.26568
       longitude : -123.100674
+      timezone  : US/Pacific
     Main St & East Broadway:
       type      : Intersection
       main      : Main
       cross     : Broadway
       latitude  : 49.2629122
       longitude : -123.1008825
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Main St .*? Broadway)
     Main St & East 13th Ave:
@@ -1235,12 +1407,14 @@ Vancouver:
       cross     : East 13th
       latitude  : 49.2593357
       longitude : -123.10090054
+      timezone  : US/Pacific
     Main St & East 14th Ave:
       type      : Intersection
       main      : Main
       cross     : East 14th
       latitude  : 49.2583988
       longitude : -123.1011669
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Main on 14th Avenue)
     Manitoba St & West 6th Ave:
@@ -1249,12 +1423,14 @@ Vancouver:
       cross     : West 6th
       latitude  : 49.26558321
       longitude : -123.10675202
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Manitoba St\. & W 6th Ave)
     Vancouver Community College:
       type      : Landmark
       latitude  : 49.26385821
       longitude : -123.07985855
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:VCC)
         - (?i-mx:Community College 1155 E Broadway)
@@ -1262,6 +1438,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.26291375
       longitude : -123.10840913
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Broadway.*?Mec)
         - (?i-mx:Mec.*?Broadway)
@@ -1273,10 +1450,12 @@ Vancouver:
       cross     : Yukon
       latitude  : 49.26399252
       longitude : -123.11270735
+      timezone  : US/Pacific
     Creekside Community Recreation Centre:
       type      : Landmark
       latitude  : 49.2714502
       longitude : -123.1055344
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:1 Athletes Way)
   Mount Seymour:
@@ -1284,6 +1463,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.36715336
       longitude : -122.94923223
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Mt Seymour)
   New Westminster:
@@ -1291,6 +1471,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.201952
       longitude : -122.927372
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Steel & Oak Brewery)
   North Vancouver:
@@ -1298,6 +1479,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.30927053
       longitude : -123.07903201
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Night market, North Vancouver)
         - (?i-mx:Night market at Victory Ship Way)
@@ -1305,26 +1487,31 @@ Vancouver:
       type      : Landmark
       latitude  : 49.158935
       longitude : -122.9610795
+      timezone  : US/Pacific
     Lions Gate Hospital:
       type      : Landmark
       latitude  : 49.320764
       longitude : -123.068346
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:LIONS GATE HOSPITAL)
     Deep Cove Brewers and Distillers:
       type      : Landmark
       latitude  : 49.30631945
       longitude : -123.0114364
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Deep Cove Brewery)
     Lonsdale Skate Park:
       type      : Landmark
       latitude  : 49.33127902
       longitude : -123.07125199
+      timezone  : US/Pacific
     Pier Market:
       type      : Landmark
       latitude  : 49.30941827
       longitude : -123.07678048
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:North Van.*?Pier Market)
         - (?i-mx:138 Victory Ship Way)
@@ -1332,10 +1519,12 @@ Vancouver:
       type      : Landmark
       latitude  : 49.30949273
       longitude : -123.07517278
+      timezone  : US/Pacific
     Norseman Park:
       type      : Landmark
       latitude  : 49.33078185
       longitude : -123.07054371
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Centennial Theatre)
         - (?i-mx:CityFest)
@@ -1343,18 +1532,21 @@ Vancouver:
       type      : Landmark
       latitude  : 49.30987557
       longitude : -123.07953358
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:North Van Ship Yards)
     Capilano University:
       type      : Landmark
       latitude  : 49.34883391
       longitude : -123.05412348
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:2055 Purcell Way North Vancouver)
     John Lawson Park:
       type      : Landmark
       latitude  : 49.32698608
       longitude : -123.16032268
+      timezone  : US/Pacific
   Oakridge: {}
   Point Grey:
     Alma St & Point Grey Rd:
@@ -1363,10 +1555,12 @@ Vancouver:
       cross     : Point Grey
       latitude  : 49.272264
       longitude : -123.185592
+      timezone  : US/Pacific
     Jericho Beach Park:
       type      : Landmark
       latitude  : 49.2742544
       longitude : -123.20354673
+      timezone  : US/Pacific
   Port Moody:
     300 Ioco Road:
       type      : Address
@@ -1374,11 +1568,13 @@ Vancouver:
       street   : Ioco
       latitude  : 49.2845492
       longitude : -122.831953
+      timezone  : US/Pacific
   Renfrew-Collingwood:
     Renfrew Station:
       type      : Landmark
       latitude  : 49.25890971
       longitude : -123.04527624
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Renfrew .*? Hebb)
   Richmond:
@@ -1386,6 +1582,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.17613139
       longitude : -123.13711396
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Richmond News)
     Westminster Hwy & No 3 Rd:
@@ -1394,11 +1591,13 @@ Vancouver:
       cross     : No 3
       latitude  : 49.17024078
       longitude : -123.13665194
+      timezone  : US/Pacific
   Riley Park:
     Nat Bailey Stadium:
       type      : Landmark
       latitude  : 49.243326
       longitude : -123.106119
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Nat Baile?y)
         - (?i-mx:Baeley)
@@ -1406,10 +1605,12 @@ Vancouver:
       type      : Landmark
       latitude  : 49.24513424
       longitude : -123.11139844
+      timezone  : US/Pacific
     Winter Farmers Market:
       type      : Event
       latitude  : 49.24430472
       longitude : -123.1053565
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Winter Farmers? Market)
         - (?i-mx:Vancouver Farmer'?s? Market)
@@ -1418,23 +1619,27 @@ Vancouver:
       type      : Landmark
       latitude  : 49.23877059
       longitude : -123.12846987
+      timezone  : US/Pacific
   Simon Fraser University:
     Simon Fraser University:
       type      : Landmark
       latitude  : 49.278094
       longitude : -122.919883
+      timezone  : US/Pacific
   South Cambie: {}
   Stanley Park:
     Second Beach:
       type      : Landmark
       latitude  : 49.29530028
       longitude : -123.15061525
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Second Beach @ Stanley Park)
     Chevron Summer Cinema:
       type      : Landmark
       latitude  : 49.29473347
       longitude : -123.14831951
+      timezone  : US/Pacific
   Strathcona:
     1345 Clark Dr:
       type      : Address
@@ -1442,10 +1647,12 @@ Vancouver:
       street   : Clark
       latitude  : 49.27072276
       longitude : -123.07779887
+      timezone  : US/Pacific
     Strange Fellows Brewing Company:
       type      : Landmark
       latitude  : 49.27253
       longitude : -123.077839
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Strangefellows Brewery)
         - (?i-mx:Strange Fellows Brewing)
@@ -1454,22 +1661,26 @@ Vancouver:
       type      : Landmark
       latitude  : 49.267486
       longitude : -123.090338
+      timezone  : US/Pacific
     Main St & Terminal Ave:
       type      : Intersection
       main      : Main
       cross     : Terminal
       latitude  : 49.2728704
       longitude : -123.0999316
+      timezone  : US/Pacific
     Powell Street Craft Brewery:
       type      : Landmark
       latitude  : 49.2810799
       longitude : -123.0714412
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Powell Street Brewery)
     Railtown Cafe:
       type      : Landmark
       latitude  : 49.284955
       longitude : -123.095386
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Rail ?Town)
         - (?i-mx:Railway St\.)
@@ -1479,30 +1690,35 @@ Vancouver:
       cross     : Dunlevy
       latitude  : 49.2848757
       longitude : -123.0952312
+      timezone  : US/Pacific
     Railway St & Jackson Ave:
       type      : Intersection
       main      : Railway
       cross     : Jackson
       latitude  : 49.2847874
       longitude : -123.0932692
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:503 Railway St)
     Strathcona Park Oval:
       type      : Landmark
       latitude  : 49.275669
       longitude : -123.084729
+      timezone  : US/Pacific
     Terminal Ave & Thornton St:
       type      : Intersection
       main      : Terminal
       cross     : Thornton
       latitude  : 49.2717774
       longitude : -123.0933357
+      timezone  : US/Pacific
     Terminal Ave & St George St:
       type      : Intersection
       main      : Terminal
       cross     : St George
       latitude  : 49.27106856
       longitude : -123.09080237
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Terminal.*?Mercedes)
         - (?i-mx:Mercedes.*?Terminal)
@@ -1511,38 +1727,46 @@ Vancouver:
       type      : Landmark
       latitude  : 49.27458556
       longitude : -123.09240933
+      timezone  : US/Pacific
     Yolk's Restaurant & Commissay:
       type      : Landmark
       latitude  : 49.281105
       longitude : -123.077367
+      timezone  : US/Pacific
     Imperial Theatre:
       type      : Landmark
       latitude  : 49.28180873
       longitude : -123.09978237
+      timezone  : US/Pacific
     MEC Head Office:
       type      : Landmark
       latitude  : 49.266089
       longitude : -123.082763
+      timezone  : US/Pacific
   Sunset: {}
   Surry:
     Central City Mall:
       type      : Landmark
       latitude  : 49.187452
       longitude : -122.849319
+      timezone  : US/Pacific
     Cloverdale Racetrack:
       type      : Landmark
       latitude  : 49.25089386
       longitude : -123.07119084
+      timezone  : US/Pacific
     Cloverdale Fairgrounds:
       type      : Landmark
       latitude  : 49.11444333
       longitude : -122.73282296
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Cloverdale Fair Grounds)
     Southridge School:
       type      : Landmark
       latitude  : 49.049977
       longitude : -122.77868775
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:South Surrey School Fair)
         - (?i-mx:Southridge Junior School)
@@ -1550,6 +1774,7 @@ Vancouver:
       type      : Landmark
       latitude  : 49.03616192
       longitude : -122.85879913
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:1880 Laronde Dr)
   UBC:
@@ -1559,20 +1784,24 @@ Vancouver:
       cross     : University
       latitude  : 49.2656887
       longitude : -123.2505086
+      timezone  : US/Pacific
     Macinnes Field:
       type      : Landmark
       latitude  : 49.26769761
       longitude : -123.24886795
+      timezone  : US/Pacific
     Buchanan:
       type      : Landmark
       latitude  : 49.26270581
       longitude : -123.2427517
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:UBC Main Mall Buch D)
     Thunderbird Stadium:
       type      : Landmark
       latitude  : 49.25585041
       longitude : -123.24520405
+      timezone  : US/Pacific
   Victoria-Fraserview: {}
   West End:
     Alberni St & Bute St:
@@ -1581,12 +1810,14 @@ Vancouver:
       cross     : Bute
       latitude  : 49.2867031
       longitude : -123.125937
+      timezone  : US/Pacific
     Denman St & Davie St:
       type      : Intersection
       main      : Denman
       cross     : Davie
       latitude  : 49.28772675
       longitude : -123.14170055
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:1800 Denman)
         - (?i-mx:1800 Davie)
@@ -1596,6 +1827,7 @@ Vancouver:
       cross     : Smithe
       latitude  : 49.2822373
       longitude : -123.1244002
+      timezone  : US/Pacific
       patterns  :
         - (?i-mx:Burrard .*? Smithe)
         - (?i-mx:Smithe .*? Burrard)
@@ -1603,12 +1835,14 @@ Vancouver:
       type      : Landmark
       latitude  : 49.28654689
       longitude : -123.14308257
+      timezone  : US/Pacific
     Beach Ave & Bute St:
       type      : Intersection
       main      : Beach
       cross     : Bute
       latitude  : 49.27886525
       longitude : -123.13667251
+      timezone  : US/Pacific
   West Point Grey: {}
   Yaletown:
     Davie St & Marinaside Cr:
@@ -1617,3 +1851,4 @@ Vancouver:
       cross     : Marinaside
       latitude  : 49.2732
       longitude : -123.11958
+      timezone  : US/Pacific

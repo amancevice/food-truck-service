@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20160129030321) do
     t.string "number"
     t.string "source"
     t.string "street"
+    t.string "timezone"
     t.string "type"
   end
 
