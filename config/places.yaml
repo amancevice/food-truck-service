@@ -587,8 +587,8 @@ Boston:
       longitude : -71.065299
       timezone  : US/Eastern
       patterns  :
-        - !ruby/regexp /SOWA/
-        - !ruby/regexp /SoWa/
+        - (?i-mx:SOWA)
+        - (?i-mx:SoWa)
     Peter's Park:
       type      : Landmark
       latitude  : 42.34384
@@ -1036,7 +1036,7 @@ Vancouver:
         - (?i-mx:Street Food City .*? Art Gallery)
         - (?i-mx:Street food city .*? Art Gallery)
         - (?i-mx:Vancouver Art .*? Streetfoodcity)
-        - !ruby/regexp /VAG/
+        - (?i-mx:VAG)
         - (?i-mx:Street Food City)
         - (?i-mx:Art Museum Square)
         - (?i-mx:Dine Out Vancouver)

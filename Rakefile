@@ -1,9 +1,11 @@
+require 'bundler/setup'
 Bundler.require
 Geocoder.configure api_key:ENV['GOOGLE_GEOCODER_API_KEY'], use_https:true
 
 namespace :firebase do
   desc 'Synchronize firebase with latest schedule'
   task :sync do
+    # Get data from each source
     source = YAML.load_file ENV['SOURCE_YAML']||'./config/sources.yaml'
     response = source.map do |x|
       x.symbolize_keys!
@@ -13,10 +15,12 @@ namespace :firebase do
       Engine.process!(payload)
     end.flatten
 
+    # Format data for Firebase
     firedata = response.map do |x|
       { x[:sha1] => x.reject{|k,v| k == :sha1 } }
     end.flatten.reduce(&:merge)
 
+    # Push to Firebase
     gen = Firebase::FirebaseTokenGenerator.new ENV['FIREBASE_SECRET']
     tkn = gen.create_token user:ENV['FIREBASE_USER']
     ref = Bigbertha::Ref.new ENV['FIREBASE_HOME'], tkn
