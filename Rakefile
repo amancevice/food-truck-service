@@ -10,6 +10,7 @@ namespace :firebase do
     gigdata = sources.map do |src|
       puts src
       Engine::Helper.source(src.symbolize_keys).map do |res|
+        Engine::Helper.update res
         Engine::Helper.gigs res
       end.flatten
     end.flatten
