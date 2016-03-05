@@ -10,6 +10,7 @@ gem 'bigbertha', require: ['bigbertha', 'firebase_token_generator']
 # Service Helpers
 gem 'rake'
 gem 'sinatra-activerecord', require:['sinatra/activerecord', 'sinatra/activerecord/rake']
+gem 'sinatra-contrib', require:['sinatra/json']
 
 group :development, :docker do
   gem 'sqlite3'

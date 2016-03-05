@@ -6,24 +6,23 @@ namespace :firebase do
   desc 'Synchronize firebase with latest schedule'
   task :sync do
     # Get data from each source
-    source = YAML.load_file ENV['SOURCE_YAML']||'./config/sources.yaml'
-    response = source.map do |x|
-      x.symbolize_keys!
-      puts x
-      klass = x[:class]&.constantize
-      payload = klass&.new(x.reject{|k,v| k == :class }).response
-      Engine.process!(payload)
+    sources = YAML.load_file ENV['SOURCE_YAML']||'./config/sources.yaml'
+    gigdata = sources.map do |src|
+      puts src
+      Engine::Helper.source(src.symbolize_keys).map do |res|
+        Engine::Helper.gigs res
+      end.flatten
     end.flatten
 
     # Format data for Firebase
-    firedata = response.map do |x|
-      { x[:sha1] => x.reject{|k,v| k == :sha1 } }
-    end.flatten.reduce(&:merge)
+    firedata = gigdata.map do |gig|
+      { gig[:id] => gig.except(:id, :geoname, :type) }
+    end.reduce &:merge
 
     # Push to Firebase
-    gen = Firebase::FirebaseTokenGenerator.new ENV['FIREBASE_SECRET']
-    tkn = gen.create_token user:ENV['FIREBASE_USER']
-    ref = Bigbertha::Ref.new ENV['FIREBASE_HOME'], tkn
-    ref.set firedata
+    Engine::Helper.firebase(
+      secret:   ENV['FIREBASE_SECRET'],
+      user:     ENV['FIREBASE_USER'],
+      firebase: ENV['FIREBASE_HOME']).set firedata
   end
 end

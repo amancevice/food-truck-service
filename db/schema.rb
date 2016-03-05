@@ -29,7 +29,8 @@ ActiveRecord::Schema.define(version: 20160129030321) do
     t.string "city"
     t.string "cross"
     t.string "main"
-    t.string "name"
+    t.string "place"
+    t.string "geoname"
     t.string "neighborhood"
     t.string "number"
     t.string "source"
@@ -42,7 +43,7 @@ ActiveRecord::Schema.define(version: 20160129030321) do
 
   create_table "trucks", force: :cascade do |t|
     t.string "city"
-    t.string "name"
+    t.string "truck"
     t.string "site"
     t.string "source"
   end

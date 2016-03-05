@@ -1,26 +1,27 @@
 GIT
   remote: git://github.com/amancevice/food-trucks-engine
-  revision: 585a6615bca52f41f6af8f252a44f28a22aad224
+  revision: e41bbb4a159cc53ad0605014db13d5c3d95c9781
   branch: master
   specs:
-    engine (0.0.1)
+    engine (0.0.2)
       chronic (~> 0.10)
       geocoder (~> 1.2)
       oga (~> 2.0)
       sinatra (~> 1.4)
       sinatra-activerecord (~> 2.0)
+      sinatra-contrib (~> 1.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (4.2.5.1)
-      activesupport (= 4.2.5.1)
+    activemodel (4.2.5.2)
+      activesupport (= 4.2.5.2)
       builder (~> 3.1)
-    activerecord (4.2.5.1)
-      activemodel (= 4.2.5.1)
-      activesupport (= 4.2.5.1)
+    activerecord (4.2.5.2)
+      activemodel (= 4.2.5.2)
+      activesupport (= 4.2.5.2)
       arel (~> 6.0)
-    activesupport (4.2.5.1)
+    activesupport (4.2.5.2)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -30,6 +31,7 @@ GEM
     arel (6.0.3)
     arrayfields (4.9.2)
     ast (2.2.0)
+    backports (3.6.8)
     bigbertha (0.0.5)
       firebase_token_generator (~> 1.0.1)
       main (~> 5.2.0)
@@ -43,7 +45,7 @@ GEM
     fattr (2.2.2)
     ffi (1.9.10)
     firebase_token_generator (1.0.3)
-    geocoder (1.3.0)
+    geocoder (1.3.1)
     i18n (0.7.0)
     json (1.8.3)
     main (5.2.0)
@@ -53,13 +55,16 @@ GEM
       map (>= 5.1.0)
     map (6.3.0)
     minitest (5.8.4)
-    oga (2.0.0)
+    multi_json (1.11.2)
+    oga (2.2)
       ast
       ruby-ll (~> 2.1)
     pg (0.18.4)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
     rake (10.5.0)
     ruby-ll (2.1.2)
       ansi
@@ -71,6 +76,13 @@ GEM
     sinatra-activerecord (2.0.9)
       activerecord (>= 3.2)
       sinatra (~> 1.0)
+    sinatra-contrib (1.4.6)
+      backports (>= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (>= 1.3, < 3)
     sqlite3 (1.3.11)
     thread_safe (0.3.5)
     tilt (2.0.2)
@@ -89,6 +101,7 @@ DEPENDENCIES
   pg
   rake
   sinatra-activerecord
+  sinatra-contrib
   sqlite3
 
 BUNDLED WITH
