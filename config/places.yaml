@@ -214,6 +214,7 @@ Boston:
       patterns  :
         - (?i-mx:Oxford.*?Kirkland)
         - (?i-mx:Harvard Yard)
+        - (?i-mx:Harvard, outside the Science Center)
     Kendall Square:
       type      : Landmark
       latitude  : 42.3628741
