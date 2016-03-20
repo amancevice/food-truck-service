@@ -1,1 +1,1 @@
-# food-truck-service
+# Eater Atlas Web Service
