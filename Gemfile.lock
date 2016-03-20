@@ -1,9 +1,9 @@
 GIT
-  remote: git://github.com/amancevice/food-trucks-engine
-  revision: 90b9da794bcbaec6b16ed2780b5ef0032e0534a3
+  remote: git://github.com/amancevice/eater-atlas-engine
+  revision: 6e39507746465393643dc1f645d363c109817465
   branch: master
   specs:
-    engine (0.0.5)
+    eater_atlas (0.1.0)
       chronic (~> 0.10)
       geocoder (~> 1.2)
       oga (~> 2.0)
@@ -97,7 +97,7 @@ PLATFORMS
 
 DEPENDENCIES
   bigbertha
-  engine!
+  eater_atlas!
   pg
   rake
   sinatra-activerecord

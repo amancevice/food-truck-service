@@ -1,2 +1,2 @@
-class Init < Engine::Migration
+class Init < EaterAtlas::Migration
 end

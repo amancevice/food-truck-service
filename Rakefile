@@ -9,9 +9,9 @@ namespace :firebase do
     sources = YAML.load_file ENV['SOURCE_YAML']||'./config/sources.yaml'
     gigdata = sources.map do |src|
       puts src
-      Engine::Helper.source(src.symbolize_keys).map do |res|
-        Engine::Helper.update res
-        Engine::Helper.gigs res
+      EaterAtlas::Helper.source(src.symbolize_keys).map do |res|
+        EaterAtlas::Helper.update res
+        EaterAtlas::Helper.gigs res
       end.flatten
     end.flatten
 
@@ -21,7 +21,7 @@ namespace :firebase do
     end.reduce &:merge
 
     # Push to Firebase
-    Engine::Helper.firebase(
+    EaterAtlas::Helper.firebase(
       secret:   ENV['FIREBASE_SECRET'],
       user:     ENV['FIREBASE_USER'],
       firebase: ENV['FIREBASE_HOME']).set firedata

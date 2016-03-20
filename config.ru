@@ -1,3 +1,3 @@
 load 'Rakefile'
 
-run Engine::Server
+run EaterAtlas::Server

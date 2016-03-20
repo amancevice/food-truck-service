@@ -7,8 +7,8 @@ ActiveRecord::Base.transaction do
         attrs.symbolize_keys!
         attrs[:source] = 'Native'
         attrs.update place:place, city:city, neighborhood:neighborhood
-        place = Place.create attrs.except(:patterns)
-        attrs[:patterns]&.map{|x| place.patterns.create value:x }
+        place = Place.find_or_create_by attrs.except(:patterns)
+        attrs[:patterns]&.map{|x| place.patterns.find_or_create_by value:x }
         place
       end
     end.flatten
@@ -21,8 +21,8 @@ ActiveRecord::Base.transaction do
       attrs.symbolize_keys!
       attrs[:source] = 'Native'
       attrs.update truck:truck, city:city
-      truck = Truck.create attrs.except(:patterns)
-      attrs[:patterns]&.map{|x| truck.patterns.create value:x }
+      truck = Truck.find_or_create_by attrs.except(:patterns)
+      attrs[:patterns]&.map{|x| truck.patterns.find_or_create_by value:x }
       truck
     end
   end.flatten
