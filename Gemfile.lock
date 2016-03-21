@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/amancevice/eater-atlas-engine
-  revision: 6e39507746465393643dc1f645d363c109817465
-  branch: master
+  revision: ed8cd828f0eeb255ff5ad9624dbf87d24dce9f44
+  tag: 0.1.1
   specs:
-    eater_atlas (0.1.0)
+    eater_atlas (0.1.1)
       chronic (~> 0.10)
       geocoder (~> 1.2)
       oga (~> 2.0)
