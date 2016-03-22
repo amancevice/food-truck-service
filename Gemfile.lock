@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/amancevice/eater-atlas-engine
-  revision: ed8cd828f0eeb255ff5ad9624dbf87d24dce9f44
-  tag: 0.1.1
+  revision: aedc81f21cd0869d9cd8628bb816efbf2fe9f92e
+  tag: 0.1.2
   specs:
     eater_atlas (0.1.1)
       chronic (~> 0.10)
