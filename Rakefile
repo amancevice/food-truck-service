@@ -16,9 +16,7 @@ namespace :firebase do
     end.flatten
 
     # Format data for Firebase
-    firedata = gigdata.map do |gig|
-      { gig[:id] => gig.except(:id, :geoname, :type) }
-    end.reduce &:merge
+    firedata = EaterAtlas::Helper.firedata gigdata
 
     # Push to Firebase
     EaterAtlas::Helper.firebase(

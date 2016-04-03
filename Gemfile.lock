@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/amancevice/eater-atlas-engine
-  revision: aedc81f21cd0869d9cd8628bb816efbf2fe9f92e
-  tag: 0.1.2
+  revision: 56adf0e5a27fd774117b66f6198508859909eca6
+  tag: 0.1.3
   specs:
-    eater_atlas (0.1.1)
+    eater_atlas (0.1.3)
       chronic (~> 0.10)
       geocoder (~> 1.2)
       oga (~> 2.0)
@@ -45,7 +45,7 @@ GEM
     fattr (2.2.2)
     ffi (1.9.10)
     firebase_token_generator (1.0.3)
-    geocoder (1.3.1)
+    geocoder (1.3.2)
     i18n (0.7.0)
     json (1.8.3)
     main (5.2.0)
