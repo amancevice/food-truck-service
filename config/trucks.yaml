@@ -46,6 +46,9 @@ Boston:
   Roxy's Grilled Cheese:
     patterns:
       - (?i-mx:Roxy's Gourmet Grilled Cheese)
+  Savory Food Truck:
+    patterns:
+      - (?i-mx:Savory Food Truck)
   Wow Barbecue:
     patterns:
       - (?i-mx:Wow Barbeque)
