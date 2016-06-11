@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/amancevice/eater-atlas-engine
-  revision: 56adf0e5a27fd774117b66f6198508859909eca6
-  tag: 0.1.3
+  revision: 6bb08e0f31b60c2fed78fc9cf3ada37737b79a23
+  tag: 0.1.4
   specs:
-    eater_atlas (0.1.3)
+    eater_atlas (0.1.4)
       chronic (~> 0.10)
       geocoder (~> 1.2)
       oga (~> 2.0)
@@ -14,14 +14,14 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (4.2.5.2)
-      activesupport (= 4.2.5.2)
+    activemodel (4.2.6)
+      activesupport (= 4.2.6)
       builder (~> 3.1)
-    activerecord (4.2.5.2)
-      activemodel (= 4.2.5.2)
-      activesupport (= 4.2.5.2)
+    activerecord (4.2.6)
+      activemodel (= 4.2.6)
+      activesupport (= 4.2.6)
       arel (~> 6.0)
-    activesupport (4.2.5.2)
+    activesupport (4.2.6)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -30,7 +30,7 @@ GEM
     ansi (1.5.0)
     arel (6.0.3)
     arrayfields (4.9.2)
-    ast (2.2.0)
+    ast (2.3.0)
     backports (3.6.8)
     bigbertha (0.0.5)
       firebase_token_generator (~> 1.0.1)
@@ -40,12 +40,12 @@ GEM
       values (~> 1.5.0)
     builder (3.2.2)
     chronic (0.10.2)
-    ethon (0.8.1)
+    ethon (0.9.0)
       ffi (>= 1.3.0)
-    fattr (2.2.2)
+    fattr (2.3.0)
     ffi (1.9.10)
     firebase_token_generator (1.0.3)
-    geocoder (1.3.2)
+    geocoder (1.3.7)
     i18n (0.7.0)
     json (1.8.3)
     main (5.2.0)
@@ -54,8 +54,8 @@ GEM
       fattr (>= 2.2.0)
       map (>= 5.1.0)
     map (6.3.0)
-    minitest (5.8.4)
-    multi_json (1.11.2)
+    minitest (5.9.0)
+    multi_json (1.12.1)
     oga (2.2)
       ast
       ruby-ll (~> 2.1)
@@ -65,7 +65,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.5.0)
+    rake (11.2.0)
     ruby-ll (2.1.2)
       ansi
       ast
@@ -76,7 +76,7 @@ GEM
     sinatra-activerecord (2.0.9)
       activerecord (>= 3.2)
       sinatra (~> 1.0)
-    sinatra-contrib (1.4.6)
+    sinatra-contrib (1.4.7)
       backports (>= 2.0)
       multi_json
       rack-protection
@@ -85,7 +85,7 @@ GEM
       tilt (>= 1.3, < 3)
     sqlite3 (1.3.11)
     thread_safe (0.3.5)
-    tilt (2.0.2)
+    tilt (2.0.5)
     typhoeus (0.6.9)
       ethon (>= 0.7.1)
     tzinfo (1.2.2)

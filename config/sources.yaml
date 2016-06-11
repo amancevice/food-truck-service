@@ -1,4 +1,8 @@
 --- # Sources
+- class    : RoseKennedyGreenway
+  city     : Boston
+  endpoint : http://www.rosekennedygreenway.org/visit/food/full-mobile-eats-calendar/
+  timezone : US/Eastern
 - class    : StreetFood
   city     : Boston
   endpoint : http://data.streetfoodapp.com/1.1/schedule/boston/

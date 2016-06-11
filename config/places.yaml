@@ -135,25 +135,17 @@ Boston:
       patterns  :
         - (?i-mx:Stuart .*? Berkeley)
         - (?i-mx:Berkeley .*? Stuart)
-    Huntington Ave & Belvidere St:
-      type      : Intersection
-      latitude  : 42.345558
-      longitude : -71.082319
-      timezone  : US/Eastern
-      main      : Huntington
-      cross     : Belvidere
-      patterns  :
-        - (?i-mx:Prudential .*? Belvidere)
-        - (?i-mx:Belvedere)
-        - (?i-mx:Belvidere .*? Prudential)
-        - (?i-mx:Belvidere)
     Prudential Center Plaza:
       type      : Landmark
       latitude  : 42.345644
       longitude : -71.08250269
       timezone  : US/Eastern
       patterns  :
-      - (?i-mx:Christian Science .*? Fountain)
+        - (?i-mx:Christian Science .*? Fountain)
+        - (?i-mx:Prudential .*? Belvidere)
+        - (?i-mx:Belvedere)
+        - (?i-mx:Belvidere .*? Prudential)
+        - (?i-mx:Belvidere)
   Bay Village: {}
   Beacon Hill: {}
   Brookline:
