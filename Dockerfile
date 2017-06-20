@@ -1,20 +1,11 @@
-FROM ruby:2.3
-MAINTAINER amancevice@cargometrics.com
-
-ENV PLACE_CONFIG=/root/config/places.yaml \
-    RACK_ENV=docker \
-    SOURCE_CONFIG=/root/config/sources.yaml \
-    TRUCK_CONFIG=/root/config/trucks.yaml
-
-WORKDIR /root
-
-COPY Gemfile /root/
-RUN bundle install --without heroku
-
-COPY config/ /root/config/
-COPY config.ru Rakefile /root/
-COPY db/migrate db/migrate
-COPY db/schema.rb db/seeds.rb db/
-RUN bundle exec rake db:setup
-
-ENTRYPOINT [ "bundle", "exec", "rackup" ]
+FROM ruby:2.4
+ENV PLACE_CONFIG=/eater-atlas/config/places.yaml \
+    SOURCE_CONFIG=/eater-atlas/config/sources.yaml \
+    TRUCK_CONFIG=/eater-atlas/config/trucks.yaml
+WORKDIR /eater-atlas
+COPY . .
+RUN useradd eateratlas && \
+    bundle install --system
+USER eateratlas
+ENTRYPOINT ["rake"]
+CMD ["--tasks"]

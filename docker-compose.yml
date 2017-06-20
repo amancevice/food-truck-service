@@ -1,0 +1,19 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:9.4
+    environment:
+      POSTGRES_DB: eateratlas
+      POSTGRES_PASSWORD: eateratlas
+      POSTGRES_USER: eateratlas
+    restart: always
+    volumes:
+      - postgres:/var/lib/postgresql/data
+  eateratlas:
+    build: .
+    image: amancevice/eateratlas
+    environment:
+      DATABASE_URL: 'postgresql://eateratlas:eateratlas@postgres:5432/eateratlas'
+volumes:
+  postgres:
+    external: false

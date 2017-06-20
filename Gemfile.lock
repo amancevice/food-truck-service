@@ -1,94 +1,91 @@
 GIT
   remote: git://github.com/amancevice/eater-atlas-engine
-  revision: 6bb08e0f31b60c2fed78fc9cf3ada37737b79a23
-  tag: 0.1.4
+  revision: d8009d1403dd2dfff3cc3f7a1dd730ba00ec4d25
+  tag: 0.1.6
   specs:
-    eater_atlas (0.1.4)
+    eater_atlas (0.1.6)
       chronic (~> 0.10)
-      geocoder (~> 1.2)
-      oga (~> 2.0)
-      sinatra (~> 1.4)
+      geocoder (~> 1.4)
+      oga (~> 2.10)
+      sinatra (~> 2.0)
       sinatra-activerecord (~> 2.0)
-      sinatra-contrib (~> 1.4)
+      sinatra-contrib (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (4.2.6)
-      activesupport (= 4.2.6)
-      builder (~> 3.1)
-    activerecord (4.2.6)
-      activemodel (= 4.2.6)
-      activesupport (= 4.2.6)
-      arel (~> 6.0)
-    activesupport (4.2.6)
+    activemodel (5.1.1)
+      activesupport (= 5.1.1)
+    activerecord (5.1.1)
+      activemodel (= 5.1.1)
+      activesupport (= 5.1.1)
+      arel (~> 8.0)
+    activesupport (5.1.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     ansi (1.5.0)
-    arel (6.0.3)
+    arel (8.0.0)
     arrayfields (4.9.2)
     ast (2.3.0)
-    backports (3.6.8)
+    backports (3.8.0)
     bigbertha (0.0.5)
       firebase_token_generator (~> 1.0.1)
       main (~> 5.2.0)
       map (~> 6.3.0)
       typhoeus (~> 0.6.2)
       values (~> 1.5.0)
-    builder (3.2.2)
     chronic (0.10.2)
-    ethon (0.9.0)
+    concurrent-ruby (1.0.5)
+    ethon (0.10.1)
       ffi (>= 1.3.0)
     fattr (2.3.0)
-    ffi (1.9.10)
+    ffi (1.9.18)
     firebase_token_generator (1.0.3)
-    geocoder (1.3.7)
-    i18n (0.7.0)
-    json (1.8.3)
+    geocoder (1.4.4)
+    i18n (0.8.4)
     main (5.2.0)
       arrayfields (>= 4.7.4)
       chronic (>= 0.6.2)
       fattr (>= 2.2.0)
       map (>= 5.1.0)
     map (6.3.0)
-    minitest (5.9.0)
+    minitest (5.10.2)
     multi_json (1.12.1)
-    oga (2.2)
+    mustermann (1.0.0)
+    oga (2.10)
       ast
       ruby-ll (~> 2.1)
-    pg (0.18.4)
-    rack (1.6.4)
-    rack-protection (1.5.3)
+    pg (0.21.0)
+    rack (2.0.3)
+    rack-protection (2.0.0)
       rack
-    rack-test (0.6.3)
-      rack (>= 1.0)
-    rake (11.2.0)
+    rake (12.0.0)
     ruby-ll (2.1.2)
       ansi
       ast
-    sinatra (1.4.7)
-      rack (~> 1.5)
-      rack-protection (~> 1.4)
-      tilt (>= 1.3, < 3)
-    sinatra-activerecord (2.0.9)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+    sinatra-activerecord (2.0.13)
       activerecord (>= 3.2)
-      sinatra (~> 1.0)
-    sinatra-contrib (1.4.7)
+      sinatra (>= 1.0)
+    sinatra-contrib (2.0.0)
       backports (>= 2.0)
       multi_json
-      rack-protection
-      rack-test
-      sinatra (~> 1.4.0)
+      mustermann (~> 1.0)
+      rack-protection (= 2.0.0)
+      sinatra (= 2.0.0)
       tilt (>= 1.3, < 3)
-    sqlite3 (1.3.11)
-    thread_safe (0.3.5)
-    tilt (2.0.5)
+    sqlite3 (1.3.13)
+    thread_safe (0.3.6)
+    tilt (2.0.7)
     typhoeus (0.6.9)
       ethon (>= 0.7.1)
-    tzinfo (1.2.2)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
     values (1.5.0)
 
@@ -104,5 +101,8 @@ DEPENDENCIES
   sinatra-contrib
   sqlite3
 
+RUBY VERSION
+   ruby 2.4.1p111
+
 BUNDLED WITH
-   1.11.2
+   1.15.1

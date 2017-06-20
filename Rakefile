@@ -4,7 +4,7 @@ Geocoder.configure api_key:ENV['GOOGLE_GEOCODER_API_KEY'], use_https:true
 
 def gigdata
   sources = YAML.load_file ENV['SOURCE_YAML']||'./config/sources.yaml'
-  gigdata = sources.map do |src|
+  sources.map do |src|
     STDERR.puts src
     EaterAtlas::Helper.source(src.symbolize_keys).map do |res|
       EaterAtlas::Helper.update res
