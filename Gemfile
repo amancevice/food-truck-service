@@ -1,8 +1,8 @@
-ruby '2.4.1'
+ruby '2.5.1'
 source 'https://rubygems.org'
 
 # Food Trucks Engine
-gem 'eater_atlas', git:'git://github.com/amancevice/eater-atlas-engine', tag:'0.1.6'
+gem 'eater_atlas', git:'https://github.com/amancevice/eater-atlas-engine.git', tag:'0.2.0'
 
 # Firebase
 gem 'bigbertha', require: ['bigbertha', 'firebase_token_generator']
