@@ -59,7 +59,7 @@ GEM
       ast
       ruby-ll (~> 2.1)
     pg (1.2.3)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
     rake (13.0.1)
